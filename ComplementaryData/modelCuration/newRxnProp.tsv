@@ -29,7 +29,7 @@ R02237	0	( YKL132C or YOR241W or YMR113W )	dihydrofolate synthase	"6.3.2.12;6.3.
 R03650	0	YNL247W	cysteinyl-tRNA synthetase	6.1.1.16	sce00970 Aminoacyl-tRNA biosynthesis	R03650
 R03662	0	YHR011W	seryl-tRNA synthetase	6.1.1.11	sce00970  Aminoacyl-tRNA biosynthesis	R03662
 [2Fe-2S] iron-sulfur cluster synthesis	0	( YPL135W and YCL017C and YER048W-A and YKL192C and YDL120W ) or ( YOR226C and YCL017C and YER048W-A and YKL192C and YDL120W )	[2Fe-2S] iron-sulfur cluster synthesis			
-[2Fe-2S] iron-sulfur cluster transfer	0	( YGL018C and YLR369W and YPL059W and YOR232)	[2Fe-2S] iron-sulfur cluster transfer			
+[2Fe-2S] iron-sulfur cluster transfer	0	( YGL018C and YLR369W and YPL059W and YOR232W)	[2Fe-2S] iron-sulfur cluster transfer			
 [2Fe-2S] iron-sulfur cluster release	0	YPL059W	[2Fe-2S] iron-sulfur cluster release			
 [2Fe-2S] iron-sulfur cluster transfer 2	0	( YPL059W and YLL027W and YPR067W and YJR122W )	[2Fe-2S] iron-sulfur cluster transfer 2			
 [4Fe-4S] iron-sulfur cluster reduction	0	( YPL059W and YLL027W and YPR067W and YJR122W )	[4Fe-4S] iron-sulfur cluster reduction			
@@ -56,7 +56,7 @@ MNXR97569	0		5'-deoxyadenosine demand
 r_4280	0	YLR239C	octanoyl-[acp]:protein N6-octanoyltransferase	2.3.1.181	sce00785  lipoic acid metabolism	R07766
 r_4324	0	YOR196C	protein N6-(octanoyl)lysine:sulfur sulfurtransferase	2.8.1.8		R07767
 2-hydroxyglutarate transport	1		2-hydroxyglutarate transport			 
-R09541	1	YOR084W	Fe(II):NADP+ oxidoreductase	1.16.1.9		R09541
+R09541	1	YOR384W	Fe(II):NADP+ oxidoreductase	1.16.1.9		R09541
 R00093	0	YDL171C	L-glutamate:NAD+ oxidoreductase (transaminating)	1.4.1.14		R00093
 R03652	0	YOR168W	L-Glutamine:tRNA(Gln) ligase (AMP-forming)	6.1.1.18	sce00970  aminoacyl-trna biosynthesis	R03652
 r_0230	0	YDL141W	biotin ligase	"6.3.4.9;6.3.4.10;6.3.4.11;6.3.4.15"	sce00780  Biotin metabolism	R04582
