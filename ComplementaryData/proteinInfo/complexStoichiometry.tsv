@@ -1,0 +1,117 @@
+gene	gene_id	complex	stoichiometry	complex_in_membrane
+YKL148C	SDH1	complex II	1	Y
+YLL041C	SDH2	complex II	1	Y
+YKL141W	SDH3	complex II	1	Y
+YDR178W	SDH4	complex II	1	Y
+Q0105	COB	complex III	1	Y
+YBL045C	COR1	complex III	1	Y
+YOR065W	CYT1	complex III	1	Y
+YHR001W-A	QCR10	complex III	1	Y
+YPR191W	QCR2	complex III	1	Y
+YFR033C	QCR6	complex III	1	Y
+YDR529C	QCR7	complex III	1	Y
+YJL166W	QCR8	complex III	1	Y
+YGR183C	QCR9	complex III	1	Y
+YEL024W	RIP1	complex III	1	Y
+Q0045	COX1	complex IV	1	Y
+YLR038C	COX12	complex IV	1	Y
+YGL191W	COX13	complex IV	1	Y
+Q0250	COX2	complex IV	1	Y
+Q0275	COX3	complex IV	1	Y
+YGL187C	COX4	complex IV	1	Y
+YNL052W	COX5A	complex IV	1	Y
+YHR051W	COX6	complex IV	1	Y
+YMR256C	COX7	complex IV	1	Y
+YLR395C	COX8	complex IV	2	Y
+YDL067C	COX9	complex IV	1	Y
+YBL099W	ATP1	complex V	3	Y
+YLR295C	ATP14	complex V	1	Y
+YPL271W	ATP15	complex V	1	Y
+YDL004W	ATP16	complex V	1	Y
+YDR377W	ATP17	complex V	1	Y
+YML081C-A	ATP18	complex V	1	Y
+YOL077W-A	ATP19	complex V	1	Y
+YJR121W	ATP2	complex V	3	Y
+YPR020W	ATP20	complex V	1	Y
+YBR039W	ATP3	complex V	1	Y
+YPL078C	ATP4	complex V	1	Y
+YDR298C	ATP5	complex V	1	Y
+Q0085	ATP6	complex V	1	Y
+YKL016C	ATP7	complex V	1	Y
+Q0080	ATP8	complex V	1	Y
+Q0130	OLI1	complex V	10	Y
+YDR322C-A	TIM11	complex V	1	Y
+YNL071W	LAT1	pyruvate dehydrogenase complex	60	N
+YFL018C	LPD1	pyruvate dehydrogenase complex	12	N
+YER178W	PDA1	pyruvate dehydrogenase complex	24	N
+YBR221C	PDB1	pyruvate dehydrogenase complex	24	N
+YGR193C	PDX1	pyruvate dehydrogenase complex	12	N
+YIL125W	KGD1	alpha-ketoglutarate dehydrogenase complex	1	N
+YDR148C	KGD2	alpha-ketoglutarate dehydrogenase complex	1	N
+YFL018C	LPD1	alpha-ketoglutarate dehydrogenase complex	1	N
+YGR082W	TOM20	TOM complex	1	Y
+YNL131W	TOM22	TOM complex	1	Y
+YMR203W	TOM40	TOM complex	1	Y
+YPR133W-A	TOM5	TOM complex	1	Y
+YOR045W	TOM6	TOM complex	1	Y
+YNL070W	TOM7	TOM complex	1	Y
+YNL121C	TOM70	TOM complex	1	Y
+YJL104W	PAM16	TIM23 complex	1	Y
+YKR065C	PAM17	TIM23 complex	1	Y
+YLR008C	PAM18	TIM23 complex	1	Y
+YJL143W	TIM17	TIM23 complex	1	Y
+YGR033C	TIM21	TIM23 complex	1	Y
+YNR017W	TIM23	TIM23 complex	1	Y
+YIL022W	TIM44	TIM23 complex	1	Y
+YPL063W	TIM50	TIM23 complex	1	Y
+YBR091C	TIM12	TIM22 complex	1	Y
+YOR297C	TIM18	TIM22 complex	1	Y
+YDL217C	TIM22	TIM22 complex	1	Y
+YJL054W	TIM54	TIM22 complex	1	Y
+YEL020W-A	TIM9	TIM9-TIM10 complex	3	N
+YHR005C-A	TIM10	TIM9-TIM10 complex	3	N
+YGR181W	TIM13	TIM8-TIM13 complex	3	N
+YJR135W-A	TIM8	TIM8-TIM13 complex	3	N
+YNL037C	IDH1	isocitrate dehydrogenase complex	4	N
+YOR136W	IDH2	isocitrate dehydrogenase complex	4	N
+YOR125C	CAT5	CoQ biosynthetic complex	1	N
+YNR041C	COQ2	CoQ biosynthetic complex	1	N
+YOL096C	COQ3	CoQ biosynthetic complex	1	N
+YDR204W	COQ4	CoQ biosynthetic complex	1	N
+YML110C	COQ5	CoQ biosynthetic complex	1	N
+YGR255C	COQ6	CoQ biosynthetic complex	1	N
+YLR201C	COQ9	CoQ biosynthetic complex	1	N
+YDR019C	GCV1	glycine decarboxylase complex	1	N
+YMR189W	GCV2	glycine decarboxylase complex	1	N
+YAL044C	GCV3	glycine decarboxylase complex	1	N
+YFL018C	LPD1	glycine decarboxylase complex	1	N
+YHR083W	SAM35	SAM complex	1	Y
+YMR060C	SAM37	SAM complex	1	Y
+YNL026W	SAM50	SAM complex	1	Y
+YOR142W	LSC1	Succinyl-CoA synthetase complex	1	N
+YGR244C	LSC2	Succinyl-CoA synthetase complex	1	N
+YMR108W	ILV2	Acetohydroxy-acid synthase complex	2	N
+YCL009C	ILV6	Acetohydroxy-acid synthase complex	2	N
+YMR150C	IMP1	IMP complex	1	Y
+YMR035W	IMP2	IMP complex	1	Y
+YEL059C-A	SOM1	IMP complex	1	Y
+YMR287C	DSS1	mtEXO complex	1	Y
+YPL029W	SUV3	mtEXO complex	1	Y
+YLR163C	MAS1	MPP complex	1	N
+YHR024C	MAS2	MPP complex	1	N
+YER048W-A	ISD11	ISD11:NFS1 complex	3	N
+YCL017C	NFS1	ISD11:NFS1 complex	3	N
+YCL044C	MGR1	i-AAA complex	1	Y
+YMR115W	MGR3	i-AAA complex	1	Y
+YPR024W	YME1	i-AAA complex	1	Y
+YBR179C	FZO1	FZO1-MGM1-UGO1 complex	1	Y
+YOR211C	MGM1	FZO1-MGM1-UGO1 complex	1	Y
+YDR470C	UGO1	FZO1-MGM1-UGO1 complex	1	Y
+YER017C	AFG3	m-AAA complex	1	Y
+YMR089C	YTA12	m-AAA complex	1	Y
+YCL057C-A	MIC10	MICOS complex	1	Y
+YBR262C	MIC12	MICOS complex	1	Y
+YFR011C	MIC19	MICOS complex	1	Y
+YGR235C	MIC26	MICOS complex	1	Y
+YNL100W	MIC27	MICOS complex	1	Y
+YKR016W	MIC60	MICOS complex	1	Y

@@ -1,0 +1,63 @@
+RxnID	REV	GPR	RxnName	EC	Subsystems	RxnKEGGid
+R02480	1	( YAL039C or YKL087C )	Cytochrome c apocytochrome-c-lyase	"4.4.1.17;4.4.1.-"	sce00860  porphyrin and chlorophyll metabolism	R02480
+R11528	1	( YCL017C and YER048W-A and YKL192C )	L-cysteine:sulfur-acceptor sulfurtransferase	2.8.1.7	iron-sulfur cluster biosynthesis	R11528
+R03661	0	YER087W	L-proline:tRNA(Pro) ligase (AMP-forming)	6.1.1.15	sce00970  aminoacyl-trna biosynthesis	R03661
+R04734	1	YHL018W	4a-hydroxytetrahydrobiopterin hydro-lyase	4.2.1.96	sce00790  folate biosynthesis	R04734
+R00275_2	1	YHR008C	superoxide:superoxide oxidoreductase	1.15.1.1	sce04146  peroxisome	R00275
+R00100_2	1	( YIL043C or YKL150W )	NADH-cytochrome b5 reductase 1 (EC 1.6.2.2) (Microsomal cytochrome b reductase) (P35)	1.6.2.2	sce00520  amino sugar and nucleotide sugar metabolism	R00100
+R00078	1	YDL120W	"Fe(II):oxygen oxidoreductase; Fe2+:oxygen oxidoreductase"	1.16.3.1	iron-sulfur cluster biosynthesis	R00078
+R03352	1	YDR036C	3-Hydroxy-2-methylpropanoyl-CoA hydrolase	3.1.2.4	valine, leucine and isoleucine metabolism	R03352
+R01799	1	YGR046W	CTP:phosphatidate cytidyltransferase	2.7.7.41	sce00564  glycerophospholipid metabolism	R01799
+R12024_2	1	YJL126W	Deaminated glutathione amidase (dGSH amidase) (EC 3.5.1.-) (Nitrilase homolog 1)	3.5.1.-	other	R12024
+R01324	1	YJL200C	citrate hydroxymutase	4.2.1.-	"lysine metabolism;sce00020  citrate cycle (tca cycle)"	R01324
+R00402	1	YJR051W	succinate:NAD+ oxidoreductase	1.3.1.6	sce00720  carbon fixation pathways in prokaryotes	R00402
+R11143	0	YJL046W	[lipoyl-carrier protein]-L-lysine:lipoate ligase (AMP-forming)	6.3.1.20	sce00785 lipoic acid metabolism	R11143
+R01931	1	( YOR251C or YOR285W or YOR286W )	thiosulfate:cyanide sulfurtranserase	"2.8.1.1;2.8.1.-"	sce00920  sulfur metabolism	R01931
+MNXR101505	1	( YOR334W or YPL060W )	Magnesium transporter MRS2, mitochondrial (RNA-splicing protein MRS2)		magnesium transport	
+MNXR124629	1	YMR301C	Iron-sulfur clusters transporter ATM1, mitochondrial		porphyrin transport	
+MNXR105277_2	1	( YMR243C or YOR316C )	Zinc transporter YKE4		zinc transport	
+R03522_4	1	YLL060C	Glutathione S-transferase 1 (EC 2.5.1.18) (GST-I)	2.5.1.18	sce00480  glutathione metabolism	R03522
+r_0229	0	YGR286C	dethiobiotin:sulfur sulfurtransferase	2.8.1.6	sce00780  Biotin metabolism	
+R10159	0	( YDR376W and YPL252C )	adrenodoxin:NADP+ oxidoreductase	1.18.1.6		R10159
+r_0530	0	( YER141W and YDR376W and YPL252C )	heme O monooxygenase	1.18.1.6	sce00860 Porphyrin and chlorophyll metabolism	
+R06865	0	( YGR255C and YPL252C and YDR376W )	3-hexaprenyl-4,5-dihydroxybenzoate hydroxylase		sce00130 Ubiquinone and other terpenoid-quinone biosynthesis	R06865
+R03038	0	YOR335C	alanyl-tRNA synthetase	6.1.1.7	sce00970  Aminoacyl-tRNA biosynthesis	R03038
+R03654	0	YBR121C	glycyl-tRNA synthetase	6.1.1.14	sce00970  Aminoacyl-tRNA biosynthesis	R03654
+R00220	0	YCL064C	L-serine ammonia-lyase	4.3.1.17	"sce00260  Glycine, serine and threonine metabolism;sce00270  Cysteine and methionine metabolism;sce00290  Valine, leucine and isoleucine biosynthesis;sce01110  Biosynthesis of secondary metabolites;sce01130  Biosynthesis of antibiotics;sce01200  Carbon metabolism;sce01230  Biosynthesis of amino acids"	R00220
+r_0119	0	YPL148C	acyl carrier protein synthetase	2.7.8.7	sce00770 Pantothenate and CoA biosynthesis	R01625
+R02237	0	( YKL132C or YOR241W or YMR113W )	dihydrofolate synthase	"6.3.2.12;6.3.2.17"	sce00790  Folate biosynthesis	R02237
+R03650	0	YNL247W	cysteinyl-tRNA synthetase	6.1.1.16	sce00970 Aminoacyl-tRNA biosynthesis	R03650
+R03662	0	YHR011W	seryl-tRNA synthetase	6.1.1.11	sce00970  Aminoacyl-tRNA biosynthesis	R03662
+[2Fe-2S] iron-sulfur cluster synthesis	0	( YPL135W and YCL017C and YER048W-A and YKL192C and YDL120W ) or ( YOR226C and YCL017C and YER048W-A and YKL192C and YDL120W )	[2Fe-2S] iron-sulfur cluster synthesis			
+[2Fe-2S] iron-sulfur cluster transfer	0	( YGL018C and YLR369W and YPL059W and YOR232)	[2Fe-2S] iron-sulfur cluster transfer			
+[2Fe-2S] iron-sulfur cluster release	0	YPL059W	[2Fe-2S] iron-sulfur cluster release			
+[2Fe-2S] iron-sulfur cluster transfer 2	0	( YPL059W and YLL027W and YPR067W and YJR122W )	[2Fe-2S] iron-sulfur cluster transfer 2			
+[4Fe-4S] iron-sulfur cluster reduction	0	( YPL059W and YLL027W and YPR067W and YJR122W )	[4Fe-4S] iron-sulfur cluster reduction			
+[4Fe-4S] iron-sulfur cluster release	0	( YLL027W and YPR067W and YJR122W )	[4Fe-4S] iron-sulfur cluster release			
+MNXR99587	0		[3Fe-4S] iron-sulfur cluster synthesis			
+[2Fe-2S] iron-sulfur cluster transport	0	YMR301C	[2Fe-2S] iron-sulfur cluster transport			
+[4Fe-4S] iron-sulfur cluster transport	0	YMR301C	[4Fe-4S] iron-sulfur cluster transport			
+R11593	0	YDL178W	(R)-2-hydroxyglutarate:pyruvate oxidoreductase	1.1.99.40	sce00620 Pyruvate metabolism	R11593
+MNXR97029	1		L-cysteine transport			 
+MNXR96409_1	0	( YAR035W or YER024W )	carnitine O-acetyltransferase	2.3.1.7		
+carnitine-acetylcarnithine carrier	0	YOR100C	carnitine-acetylcarnithine carrier			
+MNXR96409_2	0	YML042W	carnitine O-acetyltransferase	2.3.1.7		
+MNXR102418	0	YOR100C	O-propionylcarnintine transport into mitochondria			
+MNXR101057	1		L-leucine transport, mitochondrial			
+R02236	1	YOR236W	dihydrofolate:NADP+ oxidoreductase	1.3.1.5	"sce00670 One carbon pool by folate;sc00790 Folate biosynthesis"	R02236
+folate transport	1		folate transport, mitochondrial			
+r_0439	0	(Q0105 and YBL045C and YDR529C and YEL024W and YEL039C and YFR033C and YGR183C and YHR001W-A and YJL166W and YOR065W and YPR191W) or (Q0105 and YBL045C and YDR529C and YEL024W and YFR033C and YGR183C and YHR001W-A and YJL166W and YJR048W and YOR065W and YPR191W)	ubiquinol:ferricytochrome c reductase	1.10.2.2	"sce00190  Oxidative phosphorylation;sce00920  Sulfur metabolism"	
+R00896	1	YKL106W	L-cysteine:2-oxoglutarate aminotransferase	2.6.1.1	sce00270  cysteine and methionine metabolism	R00896
+R03105	1	YOR251C	3-mercaptopyruvate:sulfide sulfurtransferase	2.8.1.2	sce00270  cysteine and methionine metabolism	R03105
+MNXR100494	1		hydrogen sulfide diffusion			
+MNXR137365	1		dethiobiotin transport			
+MNXR96333	1		biotin transport			
+MNXR97569	0		5'-deoxyadenosine demand			
+r_4280	0	YLR239C	octanoyl-[acp]:protein N6-octanoyltransferase	2.3.1.181	sce00785  lipoic acid metabolism	R07766
+r_4324	0	YOR196C	protein N6-(octanoyl)lysine:sulfur sulfurtransferase	2.8.1.8		R07767
+2-hydroxyglutarate transport	1		2-hydroxyglutarate transport			 
+R09541	1	YOR084W	Fe(II):NADP+ oxidoreductase	1.16.1.9		R09541
+R00093	0	YDL171C	L-glutamate:NAD+ oxidoreductase (transaminating)	1.4.1.14		R00093
+R03652	0	YOR168W	L-Glutamine:tRNA(Gln) ligase (AMP-forming)	6.1.1.18	sce00970  aminoacyl-trna biosynthesis	R03652
+r_0230	0	YDL141W	biotin ligase	"6.3.4.9;6.3.4.10;6.3.4.11;6.3.4.15"	sce00780  Biotin metabolism	R04582
+MNXR100259	1		L-glutamine transport			 

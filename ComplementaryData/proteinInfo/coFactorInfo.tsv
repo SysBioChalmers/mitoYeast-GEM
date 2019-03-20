@@ -1,0 +1,71 @@
+gene	gene_id	complex	type	# cofactors	group	reference
+YEL024W	RIP1	complex III	fe2s2	1	mitochondrial	PMID:18390544
+YGR286C	BIO2		fe2s2	1	mitochondrial	PMID:16843540
+YGR286C	BIO2		fe4s4	1	mitochondrial	PMID:16843540
+YLL041C	SDH2	complex II	fe2s2	1	mitochondrial	PMID:16843540
+YLL041C	SDH2	complex II	fe4s4	1	mitochondrial	PMID:16843540
+YLL041C	SDH2	complex II	fe3s4	1	mitochondrial	PMID:16843540
+YPL252C	YAH1		fe2s2	1	mitochondrial	PMID:16843540
+YKR071C	DRE2		fe2s2	1	non-mitochondrial	PMID:20802492
+YKR071C	DRE2		fe4s4	1	non-mitochondrial	PMID:27166425
+YOL043C	NTG2		fe4s4	1	non-mitochondrial	PMID:16843540
+YGL091C	NBP35		fe4s4	1	non-mitochondrial	PMID:16843540
+YGL009C	LEU1		fe4s4	1	non-mitochondrial	PMID:16843540
+YOR196C	LIP5		fe4s4	2	mitochondrial	PMID:16843540
+YHR164C	DNA2		fe4s4	1	non-mitochondrial	PMID:22684504
+YKL045W	PRI2		fe4s4	1	non-mitochondrial	PMID:17704817
+YPL207W	TYW1		fe4s4	1	endoplasmic reticulum	PMID:16642040
+YER171W	RAD3		fe4s4	1	non-mitochondrial	PMID:16973432
+YJL200C	ACO2		fe4s4	1	mitochondrial	
+YLR304C	ACO1		fe4s4	1	mitochondrial	PMID:16843540
+YOR356W	CIR2		fe4s4	1	mitochondrial	
+YBR163W	EXO5		fe4s4	1	mitochondrial	
+YPL086C	ELP3		fe4s4	1	non-mitochondrial	PMID:16420352
+YPL167C	REV3		fe4s4	1	non-mitochondrial	PMID:22119860
+YNL102W	POL1		fe4s4	1	non-mitochondrial	PMID:22119860
+YDL102W	POL3		fe4s4	1	non-mitochondrial	PMID:22119860
+YNL262W	POL2		fe4s4	1	non-mitochondrial	PMID:22119860
+YIL003W	CFD1		fe4s4	1	non-mitochondrial	
+YJR137C	MET5		fe4s4	1	non-mitochondrial	PMID:16843540
+YJR016C	ILV3		fe4s4	1	mitochondrial	PMID:16843540
+YDR234W	LYS4		fe4s4	1	mitochondrial	PMID:16843540
+YDR091C	RLI1		fe4s4	2	non-mitochondrial	PMID:16843540
+YDL171C	GLT1		fe3s4	1	mitochondrial	PMID:16843540
+YDR148C	KGD2		lipoate	1	mitochondrial	PMID:19570983
+YNL071W	LAT1		lipoate	1	mitochondrial	PMID:19570983
+YAL044C	GCV3		lipoate	1	mitochondrial	PMID:19570983
+YLR214W	FRE1		heme_a	1	non-mitochondrial	
+YDR402C	DIT2		heme_a	1	non-mitochondrial	
+YGR088W	CTT1		heme_a	1	non-mitochondrial	
+YKR066C	CCP1		ferroheme_b	1	mitochondrial	
+YGR234W	YHB1		ferroheme_b	1	non-mitochondrial	
+YDR256C	CTA1		heme_a	1	non-mitochondrial	
+YKL220C	FRE2		heme_a	1	non-mitochondrial	
+YOR381W	FRE3		heme_a	1	non-mitochondrial	
+YNR060W	FRE4		heme_a	1	non-mitochondrial	
+YOR384W	FRE5		heme_a	1	non-mitochondrial	
+YLL051C	FRE6		heme_a	1	non-mitochondrial	
+YOL152W	FRE7		heme_a	2	non-mitochondrial	
+YKL141W	SDH3	complex II	ferroheme_b	0.5	mitochondrial	
+YMR015C	ERG5		heme_a	1	non-mitochondrial	
+YML054C	CYB2		ferroheme_b	1	mitochondrial	
+Q0105	COB	complex III	ferroheme_b	1	mitochondrial	
+YHR007C	ERG11		heme_a	1	non-mitochondrial	
+YJR137C	MET5		siroheme	1	non-mitochondrial	
+YJR078W	BNA2		heme_a	1	non-mitochondrial	
+YLR205C	HMX1		heme_a	1	non-mitochondrial	
+YJR048W	CYC1		heme_a	1	mitochondrial	
+YEL039C	CYC7		heme_a	1	mitochondrial	
+YGL055W	OLE1		heme_a	1	non-mitochondrial	
+YMR272C	SCS7		heme_a	1	non-mitochondrial	
+YDR178W	SDH4	complex II	ferroheme_b	0.5	mitochondrial	
+YOR065W	CYT1	complex III	heme_a	1	mitochondrial	
+YNL111C	CYB5		heme_a	1	non-mitochondrial	
+Q0045	COX1	complex IV	heme_a	1	mitochondrial	
+YMR073C	IRC21		heme_a	1	non-mitochondrial	
+YGL062W	PYC1		biotin	1	non-mitochondrial	
+YBR218C	PYC2		biotin	1	non-mitochondrial	
+YNR016C	ACC1		biotin	1	non-mitochondrial	
+YBR208C	DUR1,2		biotin	1	non-mitochondrial	
+YMR207C	HFA1		biotin	1	mitochondrial	
+YGL105W	ARC1		biotin	1	cytoplam	

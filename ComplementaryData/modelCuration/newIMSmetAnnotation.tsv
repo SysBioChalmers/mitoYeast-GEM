@@ -1,0 +1,42 @@
+NewMetName	Charged formula	Charge	compartment	KEGG ID	CHEBI ID	Remark
+ATP [mitochondrial intermembrane space]	C10H12N5O13P3	-4	mitochondrial intermembrane space	C00002	CHEBI:30616	based on chebi
+CDP [mitochondrial intermembrane space]	C9H12N3O11P2	-3	mitochondrial intermembrane space	C00112	CHEBI:58069	based on chebi
+CTP [mitochondrial intermembrane space]	C9H12N3O14P3	-4	mitochondrial intermembrane space	C00063	CHEBI:37563	based on chebi
+ADP [mitochondrial intermembrane space]	C10H12N5O10P2	-3	mitochondrial intermembrane space	C00008	CHEBI:456216	based on chebi
+dADP [mitochondrial intermembrane space]	C10H12N5O9P2	-3	mitochondrial intermembrane space	C00206	CHEBI:57667	based on chebi
+dATP [mitochondrial intermembrane space]	C10H12N5O12P3	-4	mitochondrial intermembrane space	C00131	CHEBI:61404	based on chebi
+dCDP [mitochondrial intermembrane space]	C9H12N3O10P2	-3	mitochondrial intermembrane space	C00705	CHEBI:58593	based on chebi
+dCTP [mitochondrial intermembrane space]	C9H13N3O13P3	-3	mitochondrial intermembrane space	C00458	CHEBI:57724	based on chebi
+dGDP [mitochondrial intermembrane space]	C10H12N5O10P2	-3	mitochondrial intermembrane space	C00361	CHEBI:58595	based on chebi
+dGTP [mitochondrial intermembrane space]	C10H13N5O13P3	-3	mitochondrial intermembrane space	C00286	CHEBI:57794	based on chebi
+dTDP [mitochondrial intermembrane space]	C10H13N2O11P2	-3	mitochondrial intermembrane space	C00363	CHEBI:58369	based on chebi
+dTTP [mitochondrial intermembrane space]	C10H14N2O14P3	-3	mitochondrial intermembrane space	C00459	CHEBI:58370	based on chebi
+dUDP [mitochondrial intermembrane space]	C9H11N2O11P2	-3	mitochondrial intermembrane space	C01346	CHEBI:60471	based on chebi
+dUTP [mitochondrial intermembrane space]	C9H12N2O14P3	-3	mitochondrial intermembrane space	C00460	CHEBI:58212	based on chebi
+UDP [mitochondrial intermembrane space]	C9H11N2O12P2	-3	mitochondrial intermembrane space	C00015	CHEBI:58223	based on chebi
+UTP [mitochondrial intermembrane space]	C9H11N2O15P3	-4	mitochondrial intermembrane space	C00075	CHEBI:46398	based on chebi
+AMP [mitochondrial intermembrane space]	C10H12N5O7P	-2	mitochondrial intermembrane space	C00020	CHEBI:456215	based on chebi
+ferrocytochrome c [mitochondrial intermembrane space]		0	mitochondrial intermembrane space	C00126	CHEBI:16928	
+ferricytochrome c [mitochondrial intermembrane space]		0	mitochondrial intermembrane space	C00125	CHEBI:15991	
+Apocytochrome c [mitochondrial intermembrane space]	C6H10N2O2S2	0	mitochondrial intermembrane space	C02248	CHEBI:15697	
+H+ [mitochondrial intermembrane space]	H	1	mitochondrial intermembrane space	C00080	CHEBI:24636	based on chebi
+(S)-lactate [mitochondrial intermembrane space]	C3H5O3	-1	mitochondrial intermembrane space	C00186	CHEBI:16651	based on chebi
+pyruvate [mitochondrial intermembrane space]	C3H3O3	-1	mitochondrial intermembrane space	C00022	CHEBI:15361	based on chebi
+ubiquinone-6 [mitochondrial inner membrane]	C39H58O4	0	mitochondrial membrane	C17568	CHEBI:52971	based on chebi
+glycerol 3-phosphate [mitochondrial intermembrane spce]	C3H7O6P	-2	mitochondrial intermembrane space	C00093	CHEBI:57597	based on chebi
+ubiquinol-6 [mitochondrial inner membrane]	C39H60O4	0	mitochondrial membrane	C00390	CHEBI:52970	based on chebi
+dihydroxyacetone phosphate [mitochondrial intermembrane space]	C3H5O6P	-2	mitochondrial intermembrane space	C00111	CHEBI:57642	based on chebi
+hydrogen peroxide [mitochondrial intermembrane space]	H2O2	0	mitochondrial intermembrane space	C00027	CHEBI:16240	based on chebi
+H2O [mitochondrial intermembrane space]	H2O	0	mitochondrial intermembrane space	C00001	CHEBI:15377	based on chebi
+glutathione [mitochondrial intermembrane space]	C10H16N3O6S	-1	mitochondrial intermembrane space	C00051	CHEBI:57925	based on chebi
+glutathione disulfide [mitochondrial intermembrane space]	C20H30N6O12S2	-2	mitochondrial intermembrane space	C00127	CHEBI:58297	based on chebi
+NADPH [mitochondrial intermembrane space]	C21H26N7O17P3	-4	mitochondrial intermembrane space	C00005	CHEBI:57783	based on chebi
+TRX1 disulphide [mitochondrial intermembrane space]	C6H9NO2S2R2	0	mitochondrial intermembrane space	C00342	CHEBI:15967	based on chebi
+NADP(+) [mitochondrial intermembrane space]	C21H25N7O17P3	-3	mitochondrial intermembrane space	C00006	CHEBI:58349	based on chebi
+TRX1 [mitochondrial intermembrane space]	C6H8N2O2S2R4	0	mitochondrial intermembrane space	C00343	CHEBI:18191	based on chebi
+carbon dioxide [mitochondrial intermembrane space]	CO2	0	mitochondrial intermembrane space	C00011	CHEBI:16526	based on chebi
+bicarbonate [mitochondrial intermembrane space]	CHO3	-1	mitochondrial intermembrane space	C00288	CHEBI:17544	based on chebi
+superoxide [mitochondrial intermembrane space]	O2	0	mitochondrial intermembrane space	C00007	CHEBI:15379	based on chebi
+oxygen [mitochondrial intermembrane space]	O2	-1	mitochondrial intermembrane space	C00704	CHEBI:18421	based on chebi
+(R)-lactate [mitochondrial intermembrane space]	C3H5O3	-1	mitochondrial intermembrane space	C00256	CHEBI:16004	based on kegg
+GDP [mitochondrial intermembrane space]	C10H12N5O11P2	-3	mitochondrial intermembrane space	C00035	CHEBI:58189	based on kegg
