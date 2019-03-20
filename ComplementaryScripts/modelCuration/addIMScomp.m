@@ -136,7 +136,28 @@ for i = 1:length(newRxn.ID)
     end
 end
 
-cd ../
+% Add standard gene names for new genes
+cd ../../ComplementaryData/databases/
+fid = fopen('SGDgeneNames.tsv');
+SGDgeneAnnotation = textscan(fid,'%s%s','Delimiter','\t','HeaderLines',1);
+fclose(fid);
+
+geneIndex = zeros(1,1);
+for i = 1:length(model.genes)
+    geneIndex = strcmp(SGDgeneAnnotation{1}, model.genes{i});
+    if sum(geneIndex) == 1 && ~isempty(SGDgeneAnnotation{2}{geneIndex})
+        model.geneNames{i} = SGDgeneAnnotation{2}{geneIndex};
+    else
+        model.geneNames{i} = model.genes{i};
+    end
+end
+
+% Add protein name for genes
+for i = 1:length(model.genes)
+    model.proteins{i} = strcat('COBRAprotein',num2str(i));
+end
+
+cd ../../ComplementaryScripts/
 end
 
 
