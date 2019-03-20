@@ -38,7 +38,9 @@ copyfile('tempModel.xml','../ModelFiles/xml/mitoYeastGEM.xml');
 delete('tempModel.xml');
 % .txt
 writeCbModel(model,'text','../ModelFiles/txt/mitoYeastGEM.txt');
+cd ../ModelFiles/mat/
 % .mat
 save('mitoYeastGEM.mat','model');
+cd ../ComplementaryScripts/
 
 end
