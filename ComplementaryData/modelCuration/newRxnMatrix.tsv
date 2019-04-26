@@ -224,11 +224,11 @@ folate transport	1	folate	product	mitochondrion
 r_0439	1.998	ferricytochrome c	reactant	mitochondrion
 r_0439	1.2647	H+	reactant	mitochondrion
 r_0439	0.999	ubiquinol-6	reactant	mitochondrion
-r_0439	0.001	oxygen	reactant	cytoplasm
+r_0439	0.002	oxygen	reactant	cytoplasm
 r_0439	1.998	ferrocytochrome c	product	mitochondrion
 r_0439	2.5295	H+	product	cytoplasm
 r_0439	0.999	ubiquinone-6	product	mitochondrion
-r_0439	0.001	superoxide	product	cytoplasm
+r_0439	0.002	superoxide	product	cytoplasm
 R00896	1	L-cysteine	reactant	mitochondrion
 R00896	1	2-oxoglutarate	reactant	mitochondrion
 R00896	1	mercaptopyruvate	product	mitochondrion
