@@ -14,10 +14,12 @@ model.S = full(model.S);
 model.description = 'mitoYeastGEM.xml';
 model.modelName   = 'yeastGEM with expanded mitochondrial compartments';
 model.modelID     = ['mitoYeastGEM_v' version];
+model.grRules = creategrRulesField(model); 
+grRules = model.grRules; % used when creating txt file for model
 
-if isfield(model,'grRules')
-    model = rmfield(model,'grRules');
-end
+% Remove grRules field from model
+model = rmfield(model,'grRules');
+
 
 % Update SBO terms in model
 cd ../../yeast-GEM/ComplementaryScripts/missingFields/
@@ -37,10 +39,25 @@ end
 copyfile('tempModel.xml','../ModelFiles/xml/mitoYeastGEM.xml');
 delete('tempModel.xml');
 % .txt
-writeCbModel(model,'text','../ModelFiles/txt/mitoYeastGEM.txt');
-cd ../ModelFiles/mat/
+cd ../ModelFiles/txt/
+rxnFormulas = printRxnFormula(model,model.rxns,false,true,true);
+subSystems = cell(size(model.rxns));
+for i = 1:length(model.rxns)
+    subSystem = model.subSystems{i};
+    subSystems{i} = strjoin(subSystem,';');
+end 
+colNames    = {'rxnID','rxnName','Formula','ECnumber', ...
+               'GeneAssociation','LB','UB','subSystem','Notes', ...
+               'Reference','ConfidenceScore'};
+modelInfo = table(model.rxns,model.rxnNames,rxnFormulas,model.rxnECNumbers, ...
+                  grRules,model.lb,model.ub,subSystems,model.rxnNotes, ...
+                  model.rxnReferences, model.rxnConfidenceScores, ...
+                  'VariableNames',colNames);
+writetable(modelInfo,'mitoYeastGEM.txt','FileType','text', ...
+           'Delimiter','\t');
+cd ../mat/
 % .mat
 save('mitoYeastGEM.mat','model');
-cd ../ComplementaryScripts/
+cd ../../ComplementaryScripts/
 
 end
