@@ -13,7 +13,7 @@ paxDb.abundances = cellfun(@str2num,pdb{3})*1e-6;
 fclose(fid);
 
 % read file with stoichiometry info for mitochondrial complexes
-cd ../
+cd ../proteinInfo/
 fid     = fopen('complexStoichiometry.tsv');
 compl   = textscan(fid,'%s %s %s %s %s','Delimiter','\t','HeaderLines',1);
 complexInfo.genes    = compl{1};
@@ -30,6 +30,7 @@ mitoGenes = mgenes{1};
 fclose(fid);
 
 % read file with amino acid info
+cd ../Physiology/
 fid               = fopen('mitoAminoAcidUsage.tsv');
 aa_usage          = textscan(fid,'%s %s %s %s %s %s','Delimiter','\t','HeaderLines',1);
 aa_data.name      = aa_usage{1}; % amino acid name
