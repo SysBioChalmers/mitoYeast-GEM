@@ -23,7 +23,7 @@ fclose(fid);
 % read file with cofactor content information
 cd ../proteinInfo/
 fid    = fopen('coFactorInfo.tsv');
-coFact = textscan(fid,'%s %s %s %s %s %s %s','Delimiter','\t', ...
+coFact = textscan(fid,'%s %s %s %s %s %s %s %s','Delimiter','\t', ...
                   'HeaderLines',1);
 coFactorInfo.genes    = coFact{1};
 coFactorInfo.complex  = coFact{3};
@@ -87,7 +87,7 @@ for i = 1:length(coFactorInfo.genes)
     % calculate cofactor content (mmol/gDW)
     for k = 1:length(uniprot.gene_ids)
         gene_id = uniprot.gene_ids{k};
-        if contains(gene_id,protein)
+        if contains(gene_id,protein) && ~contains(gene_id,'YHR007C-A') % Handle ERG11 (YHR007C)
             MW = uniprot.MWs(k);
             coFactorContent = Ptot*abundance*1000/MW; % mmol/gDW
             coFactorInfo.abundances(i) = coFactorContent;

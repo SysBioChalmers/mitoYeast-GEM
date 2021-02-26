@@ -41,17 +41,18 @@ model.S(hemeApos,cofactorRxnPos) = 0;
 biomassData.mets   = [biomassData.mets;model.mets{CoQpos}];
 biomassData.MWs    = [biomassData.MWs;CoQ_MW;];
 biomassData.groups = [biomassData.groups;{'cofactor'}];
-cd ../../../yeast-GEM/ComplementaryScripts/modelCuration/
+%cd ../../../yeast-GEM/ComplementaryScripts/modelCuration/
 [X,~,C,~,~,~,~,F] = sumBioMass(model,biomassData);
 
-cd ../../../mitoYeast-GEM/ComplementaryScripts/otherChanges/
+%cd ../../../mitoYeast-GEM/ComplementaryScripts/otherChanges/
 
 delta = X - 1;
 fC = (C -delta)/C;
 model = rescalePseudoReaction(model,'carbohydrate',fC);
-cd ../../../yeast-GEM/ComplementaryScripts/modelCuration/
+%cd ../../../yeast-GEM/ComplementaryScripts/modelCuration/
 sumBioMass(model,biomassData);
 
 cd ../../../mitoYeastGEM/ComplementaryScripts/
+cd ../
 
 end
