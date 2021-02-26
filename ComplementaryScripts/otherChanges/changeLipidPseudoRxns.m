@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % model = changeLipidPseudoRxns(model)
 %
-% Carl Malina 2019-01
+% Carl Malina. Last updated: 2020-08-04
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 function model = changeLipidPseudoRxns(model)
 % save a copy of original model
@@ -10,9 +10,44 @@ model_old = model;
 % read data from Ejsing et al. 2009
 cd ../../SLIMEr/data
 data = readEjsingData(1);
+cd ../../mitoYeast-GEM/ComplementaryScripts/otherChanges/
 data = convertEjsingData(data,model,true);
 lipidData = data.lipidData;
 chainData = data.chainData;
+%read data from Lahtvee et al. 2017 - to be used for ergosterol ester (SE) 
+%and free fatty acids (FFA)
+cd ../../../SLIMEr/data/
+LahtveeData = readLahtveeData(1);
+lipidDataLahtvee = LahtveeData.lipidData;
+chainDataLahtvee = LahtveeData.chainData;
+% Add abundance data for SE and FFA to lipidData
+SE_pos = strcmp(lipidDataLahtvee.metAbbrev,'SE');
+FFA_pos = strcmp(lipidDataLahtvee.metAbbrev,'FFA');
+% % Calculate the percentage of total lipids constituted by SE and FFA, to be
+% % used for calculating the acyl chain abundance in these two species
+fractionSE            = lipidDataLahtvee.abundance(SE_pos)/sum(lipidDataLahtvee.abundance);
+fractionFFA           = lipidDataLahtvee.abundance(FFA_pos)/sum(lipidDataLahtvee.abundance);
+% Combine data
+combinedPos           = [find(SE_pos);find(FFA_pos)];
+lipidData.metNames    = [lipidData.metNames;lipidDataLahtvee.metNames(combinedPos)];
+% % Calculate a scaling factor to account for the 8% total lipid content from
+% % Lahtvee study
+scalingFactor1 = (0.08-0.08*(fractionSE+fractionFFA))/sum(lipidData.abundance);
+scalingFactor2 = 0.08/sum(lipidDataLahtvee.abundance);
+lipidData.abundance   = double([lipidData.abundance*scalingFactor1;lipidDataLahtvee.abundance(combinedPos)*scalingFactor2]);
+lipidData.std         = [lipidData.std;0;0];
+acylChainAbundanceFFA = (chainDataLahtvee.abundance+chainDataLahtvee.std)*fractionFFA;
+acylChainAbundanceSE  = zeros(size(chainDataLahtvee.abundance));
+palmitoleate_pos      = strcmp(chainDataLahtvee.metNames,'C16:1 chain');
+oleate_pos            = strcmp(chainDataLahtvee.metNames,'C18:1 chain');
+acylChainAbundanceSE(palmitoleate_pos) = (chainDataLahtvee.abundance(palmitoleate_pos)+chainDataLahtvee.std(palmitoleate_pos))*fractionSE;
+acylChainAbundanceSE(oleate_pos)       = (chainDataLahtvee.abundance(oleate_pos)+chainDataLahtvee.std(oleate_pos))*fractionSE;
+combinedFraction = fractionSE + fractionFFA;
+chainData.abundance = double(chainData.abundance + acylChainAbundanceFFA + acylChainAbundanceSE);%(chainDataLahtvee.abundance+chainDataLahtvee.std)*combinedFraction);
+
+% incorporate changes into data
+data.lipidData = lipidData;
+data.chainData.abundance = chainData.abundance;
 
 % Find the IDs in model for all lipid backbones
 backboneIDs = cell(size(lipidData.metNames));
@@ -95,7 +130,7 @@ biomassData.groups = bd{5};
 fclose(fid);
 
 % calculate the current composition
-cd ../../../yeast-GEM/ComplementaryScripts/modelCuration/
+cd ../../ComplementaryScripts/otherChanges/
 
 [X,P,C,R,~,~,~,~] = sumBioMass(model,biomassData);
 
@@ -126,13 +161,85 @@ sumBioMass(model,biomassData);
 model.ub(strcmp(model.rxnNames,'lipid chain exchange')) = 1000;
 model.ub(strcmp(model.rxnNames,'lipid backbone exchange')) = 1000;
 
+% Check if model can grow given the current lipid composition
+sol = optimizeCbModel(model);
+% if model doesn't predict growth, try scaling acyl chain pseudoreaction
+if sol.f == 0
+    scaleAll = false;
+    lipidChainPseudoRxnPos = strcmp(model.rxnNames,'lipid chain pseudoreaction');
+    acylChainPos = find(model.S(:,lipidChainPseudoRxnPos)<0);
+    increment = 1.5:-0.01:0.5;
+    scalingModel = model;
+    optScalingFactor = 1;
+    for j = 1:length(increment)
+        % scale lipid chain pseudoreaction
+        scalingFactor = increment(j);
+        scalingModel.S(acylChainPos,lipidChainPseudoRxnPos) = model.S(acylChainPos,lipidChainPseudoRxnPos)*scalingFactor;
+        %printRxnFormula(testModel,'r_4063',true,true,true);
+        sol = optimizeCbModel(scalingModel);
+        if sol.f > 0.01
+            disp(['Scaling acyl chains by factor ' num2str(scalingFactor) ' restores growth to: ' num2str(sol.f)]);
+            try
+                scalingModel = scaleAbundancesInModel(scalingModel,data,'tails');
+                if abs(1-scalingFactor) < optScalingFactor
+                    optScalingFactor = scalingFactor;
+                end
+            catch
+                warning('Scaling does not work')
+                continue
+            end
+        end
+    end
+    % If scaling acyl chains restores growth, scale acyl chains. Otherwise, try
+    % scaling individual acyl chains
+    if optScalingFactor ~= 1
+        scaleAll = true;
+    else
+        increment = 0.95:0.01:1.05;
+        optScalingFactor = 1;
+        for j = 1:length(increment)
+            % scale individual lipid chains in lipid chain pseudoreaction
+            scalingFactor = increment(j);
+            for z = 1:length(acylChainPos)
+                scalingModel = model;
+                acylChain_pos = acylChainPos(z);
+                scalingModel.S(acylChain_pos,lipidChainPseudoRxnPos) = model.S(acylChain_pos,lipidChainPseudoRxnPos)*scalingFactor;
+                %printRxnFormula(testModel,'r_4063',true,true,true);
+                sol = optimizeCbModel(scalingModel);
+                if sol.f > 0.01
+                    %disp(['Scaling acyl chains by factor ' num2str(scalingFactor) ' restores growth to: ' num2str(sol.f)]);
+                    disp(['Scaling acyl chain ' scalingModel.metNames{acylChain_pos} ' by factor: ' num2str(scalingFactor) ' restores growth to ' num2str(sol.f)])
+                    try
+                        scalingModel = scaleAbundancesInModel(scalingModel,data,'tails');
+                        if optScalingFactor == 1
+                            optScalingFactor = scalingFactor;
+                        elseif abs(1-scalingFactor) < abs(1-optScalingFactor)
+                            optScalingFactor = scalingFactor;
+                            acylChainToScalePos = acylChain_pos;
+                            solution = optimizeCbModel(scalingModel);
+                            disp(['After scaling, model grows at: ' num2str(solution.f)])
+                        end
+                        %continue
+                    catch
+                        warning('Scaling does not work')
+                        continue
+                    end
+                end
+            end
+        end
+    end
+end
+if scaleAll
+    model.S(acylChainPos,lipidChainPseudoRxn) = model.S(acylChainPos,lipidChainPseudoRxn)*optScalingFactor;
+else
+    model.S(acylChainToScalePos,lipidChainPseudoRxnPos) = model.S(acylChainToScalePos,lipidChainPseudoRxnPos)*optScalingFactor;
+end
+
 % Scale abundances of backbones and chains to be consistent
-cd ../../../SLIMEr/models
 [model,k] = scaleAbundancesInModel(model,data,'tails');
 
 % correct the other components of the biomass again, accounting for the new
 % lipid content
-cd ../../yeast-GEM/ComplementaryScripts/modelCuration/
 [X,~,C,~,~,L,~,~] = sumBioMass(model,biomassData);
 % balance out content with carbohydrates
 delta = X - 1;
@@ -141,10 +248,10 @@ model = rescalePseudoReaction(model,'carbohydrate',fC);
 sumBioMass(model,biomassData);
 
 %Block exchange of tails and backbones:
- posT  = strcmp(model.rxnNames,'lipid chain exchange');
- posB  = strcmp(model.rxnNames,'lipid backbone exchange');
- model = changeRxnBounds(model,model.rxns(posT),0,'b');
- model = changeRxnBounds(model,model.rxns(posB),0,'b');
+posT  = strcmp(model.rxnNames,'lipid chain exchange');
+posB  = strcmp(model.rxnNames,'lipid backbone exchange');
+model = changeRxnBounds(model,model.rxns(posT),0,'b');
+model = changeRxnBounds(model,model.rxns(posB),0,'b');
 
 % Compare model simulations after modifying the lipid pseudoreactions
 sol_1        = optimizeCbModel(model_old);
