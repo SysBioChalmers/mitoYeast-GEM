@@ -1,0 +1,336 @@
+rxnID	coefficient	Metabolite standard name	Metabolite_type	compartment
+r_0439	1.998	ferricytochrome c	reactant	mitochondrial intermembrane space
+r_0439	1.2647	PMF	reactant	mitochondrion
+r_0439	1	ubiquinol-6	reactant	mitochondrial membrane
+r_0439	0.002	oxygen	reactant	mitochondrial intermembrane space
+r_0439	1.998	ferrocytochrome c	product	mitochondrial intermembrane space
+r_0439	2.5295	PMF	product	mitochondrial intermembrane space
+r_0439	1	ubiquinone-6	product	mitochondrial membrane
+r_0439	0.002	superoxide	product	mitochondrial intermembrane space
+r_0438	1.266	PMF	reactant	mitochondrion
+r_0438	0.25	oxygen	reactant	mitochondrion
+r_0438	1	ferrocytochrome c	reactant	mitochondrial intermembrane space
+r_0438	0.5	H2O	product	mitochondrion
+r_0438	1	ferricytochrome c	product	mitochondrial intermembrane space
+r_0438	0.633	PMF	product	mitochondrial intermembrane space
+r_0226	1	H+	reactant	mitochondrion
+r_0226	1	ADP	reactant	mitochondrion
+r_0226	1	phosphate	reactant	mitochondrion
+r_0226	3	PMF	reactant	mitochondrial intermembrane space
+r_0226	1	ATP	product	mitochondrion
+r_0226	1	H2O	product	mitochondrion
+r_0226	3	PMF	product	mitochondrion
+r_1110	1	ATP	reactant	mitochondrion
+r_1110	1	ADP	reactant	cytoplasm
+r_1110	0.9	PMF	reactant	mitochondrial intermembrane space
+r_1110	1	ADP	product	mitochondrion
+r_1110	1	ATP	product	cytoplasm
+r_1110	0.9	PMF	product	mitochondrion
+r_1112	1	2-oxoglutarate	reactant	cytoplasm
+r_1112	1	citrate	reactant	mitochondrion
+r_1112	0.9	PMF	reactant	mitochondrial intermembrane space
+r_1112	1	2-oxoglutarate	product	mitochondrion
+r_1112	1	citrate	product	cytoplasm
+r_1112	0.9	PMF	product	mitochondrion
+r_1118	1	H+	reactant	mitochondrial intermembrane space
+r_1118	1	L-aspartate	reactant	mitochondrion
+r_1118	1	L-glutamate	reactant	cytoplasm
+r_1118	1	PMF	reactant	mitochondrial intermembrane space
+r_1118	1	L-aspartate	product	cytoplasm
+r_1118	1	L-glutamate	product	mitochondrion
+r_1118	1	PMF	product	mitochondrion
+r_1118	1	H+	product	mitochondrion
+r_1129	1	coenzyme A	reactant	cytoplasm
+r_1129	3.6	PMF	reactant	mitochondrion
+r_1129	1	coenzyme A	product	mitochondrion
+r_1129	3.6	PMF	product	mitochondrial intermembrane space
+r_1130	1	CMP	reactant	mitochondrion
+r_1130	1	CTP	reactant	cytoplasm
+r_1130	1	H+	reactant	mitochondrial intermembrane space
+r_1130	1	PMF	reactant	mitochondrial intermembrane space
+r_1130	1	CMP	product	cytoplasm
+r_1130	1	CTP	product	mitochondrion
+r_1130	1	H+	product	mitochondrion
+r_1130	1	PMF	product	mitochondrion
+r_1131	1	CMP	reactant	mitochondrion
+r_1131	1	CTP	reactant	cytoplasm
+r_1131	2	H+	reactant	mitochondrial intermembrane space
+r_1131	0.2	PMF	reactant	mitochondrial intermembrane space
+r_1131	1	CMP	product	cytoplasm
+r_1131	1	CTP	product	mitochondrion
+r_1131	2	H+	product	mitochondrion
+r_1131	0.2	PMF	product	mitochondrion
+r_1137	1	H+	reactant	mitochondrial intermembrane space
+r_1137	1	(R)-lactate	reactant	mitochondrial intermembrane space
+r_1137	0.1	PMF	reactant	mitochondrial intermembrane space
+r_1137	1	H+	product	mitochondrion
+r_1137	1	(R)-lactate	product	mitochondrion
+r_1137	0.1	PMF	product	mitochondrion
+r_1151	1	FAD	reactant	cytoplasm
+r_1151	2.7	PMF	reactant	mitochondrion
+r_1151	1	FAD	product	mitochondrion
+r_1151	2.7	PMF	product	mitochondrial intermembrane space
+r_1175	1	GDP	reactant	mitochondrion
+r_1175	1	GTP	reactant	cytoplasm
+r_1175	1	H+	reactant	mitochondrial intermembrane space
+r_1175	0.1	PMF	reactant	mitochondrial intermembrane space
+r_1175	1	GTP	product	mitochondrion
+r_1175	1	GDP	product	cytoplasm
+r_1175	1	H+	product	mitochondrion
+r_1175	0.1	PMF	product	mitochondrion
+r_1179	1	iron(2+)	reactant	cytoplasm
+r_1179	1.8	PMF	reactant	mitochondrial intermembrane space
+r_1179	1	iron(2+)	product	mitochondrion
+r_1179	1.8	PMF	product	mitochondrion
+r_1182	1	isopentenyl diphosphate	reactant	cytoplasm
+r_1182	2.7	PMF	reactant	mitochondrion
+r_1182	1	isopentenyl diphosphate	product	mitochondrion
+r_1182	2.7	PMF	product	mitochondrial intermembrane space
+r_1194	1	H+	reactant	mitochondrial intermembrane space
+r_1194	1	L-glutamate	reactant	cytoplasm
+r_1194	0.1	PMF	reactant	mitochondrial intermembrane space
+r_1194	1	H+	product	mitochondrion
+r_1194	1	L-glutamate	product	mitochondrion
+r_1194	0.1	PMF	product	mitochondrion
+r_1126	1	citrate	reactant	mitochondrion
+r_1126	1	(S)-malate	reactant	cytoplasm
+r_1126	1	citrate	product	cytoplasm
+r_1126	1	(S)-malate	product	mitochondrion
+r_1127	1	phosphoenolpyruvate	reactant	cytoplasm
+r_1127	1	citrate	reactant	mitochondrion
+r_1127	1	phosphoenolpyruvate	product	mitochondrion
+r_1127	1	citrate	product	cytoplasm
+r_1128	1	citrate	reactant	cytoplasm
+r_1128	1	isocitrate	reactant	mitochondrion
+r_1128	1	H+	reactant	mitochondrial intermembrane space
+r_1128	1	PMF	reactant	mitochondrial intermembrane space
+r_1128	1	citrate	product	mitochondrion
+r_1128	1	isocitrate	product	cytoplasm
+r_1128	1	H+	product	mitochondrion
+r_1128	1	PMF	product	mitochondrion
+r_1128_REV	1	citrate	reactant	mitochondrion
+r_1128_REV	1	isocitrate	reactant	cytoplasm
+r_1128_REV	1	H+	reactant	mitochondrial intermembrane space
+r_1128_REV	1	PMF	reactant	mitochondrial intermembrane space
+r_1128_REV	1	citrate	product	cytoplasm
+r_1128_REV	1	isocitrate	product	mitochondrion
+r_1128_REV	1	H+	product	mitochondrion
+r_1128_REV	1	PMF	product	mitochondrion
+r_1229	1	NAD	reactant	cytoplasm
+r_1229	0.9	PMF	reactant	mitochondrion
+r_1229	1	NAD	product	mitochondrion
+r_1229	0.9	PMF	product	mitochondrial intermembrane space
+r_1230	1	NAD	reactant	cytoplasm
+r_1230	1	dAMP	reactant	mitochondrion
+r_1230	0.9	PMF	reactant	mitochondrial intermembrane space
+r_1230	1	NAD	product	mitochondrion
+r_1230	1	dAMP	product	cytoplasm
+r_1230	0.9	PMF	product	mitochondrion
+r_1231	1	AMP	reactant	mitochondrion
+r_1231	1	NAD	reactant	cytoplasm
+r_1231	0.9	PMF	reactant	mitochondrial intermembrane space
+r_1231	1	AMP	product	cytoplasm
+r_1231	1	NAD	product	mitochondrion
+r_1231	0.9	PMF	product	mitochondrion
+r_1232	1	dGMP	reactant	mitochondrion
+r_1232	1	NAD	reactant	cytoplasm
+r_1232	0.9	PMF	reactant	mitochondrial intermembrane space
+r_1232	1	dGMP	product	cytoplasm
+r_1232	1	NAD	product	mitochondrion
+r_1232	0.9	PMF	product	mitochondrion
+r_1237	1	H+	reactant	mitochondrial intermembrane space
+r_1237	1	ornithine	reactant	mitochondrion
+r_1237	0.1	PMF	reactant	mitochondrial intermembrane space
+r_1237	1	H+	product	mitochondrion
+r_1237	1	ornithine	product	cytoplasm
+r_1237	0.1	PMF	product	mitochondrion
+r_1239	1	H+	reactant	mitochondrial intermembrane space
+r_1239	1	oxaloacetate	reactant	cytoplasm
+r_1239	0.1	PMF	reactant	mitochondrial intermembrane space
+r_1239	1	H+	product	mitochondrion
+r_1239	1	oxaloacetate	product	mitochondrion
+r_1239	0.1	PMF	product	mitochondrion
+r_1245	1	H+	reactant	mitochondrial intermembrane space
+r_1245	1	phosphate	reactant	cytoplasm
+r_1245	0.1	PMF	reactant	mitochondrial intermembrane space
+r_1245	1	H+	product	mitochondrion
+r_1245	1	phosphate	product	mitochondrion
+r_1245	0.1	PMF	product	mitochondrion
+r_1574	1	2-isopropylmalate	reactant	mitochondrion
+r_1574	1	oxaloacetate	reactant	cytoplasm
+r_1574	1	2-isopropylmalate	product	cytoplasm
+r_1574	1	oxaloacetate	product	mitochondrion
+r_1256	1	S-adenosyl-L-methionine	reactant	cytoplasm
+r_1256	0.9	PMF	reactant	mitochondrial intermembrane space
+r_1256	1	S-adenosyl-L-methionine	product	mitochondrion
+r_1256	0.9	PMF	product	mitochondrion
+r_2042	1	S-adenosyl-L-methionine	reactant	cytoplasm
+r_2042	1	S-adenosyl-L-homocysteine	reactant	mitochondrion
+r_2042	0.9	PMF	reactant	mitochondrial intermembrane space
+r_2042	1	S-adenosyl-L-methionine	product	mitochondrion
+r_2042	1	S-adenosyl-L-homocysteine	product	cytoplasm
+r_2042	0.9	PMF	product	mitochondrion
+r_1275	1	FMN	reactant	mitochondrion
+r_1275	1	UMP	reactant	mitochondrion
+r_1275	1	UTP	reactant	cytoplasm
+r_1275	1	H+	reactant	mitochondrial intermembrane space
+r_1275	1.9	PMF	reactant	mitochondrial intermembrane space
+r_1275	1	FMN	product	cytoplasm
+r_1275	1	UMP	product	cytoplasm
+r_1275	1	UTP	product	mitochondrion
+r_1275	1	H+	product	mitochondrion
+r_1275	1.9	PMF	product	mitochondrion
+r_1276	2	H+	reactant	mitochondrial intermembrane space
+r_1276	1	UTP	reactant	cytoplasm
+r_1276	1	UMP	reactant	mitochondrion
+r_1276	0.2	PMF	reactant	mitochondrial intermembrane space
+r_1276	2	H+	product	mitochondrion
+r_1276	1	UTP	product	mitochondrion
+r_1276	1	UMP	product	cytoplasm
+r_1276	0.2	PMF	product	mitochondrion
+MNXR95946	1	L-arginine	reactant	cytoplasm
+MNXR95946	1	ornithine	reactant	mitochondrion
+MNXR95946	1	L-arginine	product	mitochondrion
+MNXR95946	1	ornithine	product	cytoplasm
+r_2034	1	H+	reactant	mitochondrial intermembrane space
+r_2034	1	pyruvate	reactant	mitochondrial intermembrane space
+r_2034	0.1	PMF	reactant	mitochondrial intermembrane space
+r_2034	1	H+	product	mitochondrion
+r_2034	1	pyruvate	product	mitochondrion
+r_2034	0.1	PMF	product	mitochondrion
+r_1568	1	2-dehydropantoate	reactant	cytoplasm
+r_1568	0.9	PMF	reactant	mitochondrial intermembrane space
+r_1568	1	2-dehydropantoate	product	mitochondrion
+r_1568	0.9	PMF	product	mitochondrion
+r_1585	1	H+	reactant	mitochondrial intermembrane space
+r_1585	1	2-oxobutanoate	reactant	cytoplasm
+r_1585	0.1	PMF	reactant	mitochondrial intermembrane space
+r_1585	1	H+	product	mitochondrion
+r_1585	1	2-oxobutanoate	product	mitochondrion
+r_1585	0.1	PMF	product	mitochondrion
+r_1965	1	ammonium	reactant	cytoplasm
+r_1965	0.9	PMF	reactant	mitochondrial intermembrane space
+r_1965	1	ammonium	product	mitochondrion
+r_1965	0.9	PMF	product	mitochondrion
+r_1794	1	formate	reactant	mitochondrion
+r_1794	0.9	PMF	reactant	mitochondrial intermembrane space
+r_1794	1	formate	product	cytoplasm
+r_1794	0.9	PMF	product	mitochondrion
+r_2129	1	H+	reactant	mitochondrial intermembrane space
+r_2129	1	PMF	reactant	mitochondrial intermembrane space
+r_2129	1	H+	product	mitochondrion
+r_2129	1	PMF	product	mitochondrion
+r_1595	1	(2S)-2-isopropyl-3-oxosuccinate	reactant	cytoplasm
+r_1595	1.8	PMF	reactant	mitochondrion
+r_1595	1	(2S)-2-isopropyl-3-oxosuccinate	product	mitochondrion
+r_1595	1.8	PMF	product	mitochondrial intermembrane space
+r_1596	1	(S)-3-methyl-2-oxopentanoate	product	cytoplasm
+r_1596	0.9	PMF	product	mitochondrion
+r_1596	1	(S)-3-methyl-2-oxopentanoate	reactant	mitochondrion
+r_1596	0.9	PMF	reactant	mitochondrial intermembrane space
+r_1606	1	4-aminobenzoate	reactant	cytoplasm
+r_1606	0.9	PMF	reactant	mitochondrion
+r_1606	1	4-aminobenzoate	product	mitochondrion
+r_1606	0.9	PMF	product	mitochondrial intermembrane space
+r_1607	1	4-aminobutanal	reactant	cytoplasm
+r_1607	0.9	PMF	reactant	mitochondrial intermembrane space
+r_1607	1	4-aminobutanal	product	mitochondrion
+r_1607	0.9	PMF	product	mitochondrion
+r_1609	1	4-hydroxy-2-oxoglutarate	reactant	cytoplasm
+r_1609	1.8	PMF	reactant	mitochondrion
+r_1609	1	4-hydroxy-2-oxoglutarate	product	mitochondrion
+r_1609	1.8	PMF	product	mitochondrial intermembrane space
+r_1611	1	4-hydroxybenzoate	reactant	cytoplasm
+r_1611	0.9	PMF	reactant	mitochondrion
+r_1611	1	4-hydroxybenzoate	product	mitochondrion
+r_1611	0.9	PMF	product	mitochondrial intermembrane space
+r_1642	1	adenosine 3',5'-bismonophosphate	reactant	cytoplasm
+r_1642	1	coenzyme A	reactant	mitochondrion
+r_1642	1	adenosine 3',5'-bismonophosphate	product	mitochondrion
+r_1642	1	coenzyme A	product	cytoplasm
+r_1657	1	L-arginine	reactant	cytoplasm
+r_1657	0.9	PMF	reactant	mitochondrial intermembrane space
+r_1657	1	L-arginine	product	mitochondrion
+r_1657	0.9	PMF	product	mitochondrion
+r_1743	1	dihydrofolic acid	reactant	cytoplasm
+r_1743	1.8	PMF	reactant	mitochondrion
+r_1743	1	dihydrofolic acid	product	mitochondrion
+r_1743	1.8	PMF	product	mitochondrial intermembrane space
+r_1745	1	7,8-dihydropteroate	reactant	cytoplasm
+r_1745	0.9	PMF	reactant	mitochondrion
+r_1745	1	7,8-dihydropteroate	product	mitochondrion
+r_1745	0.9	PMF	product	mitochondrial intermembrane space
+r_1746	1	dihydroxyacetone phosphate	reactant	mitochondrion
+r_1746	1.8	PMF	reactant	mitochondrial intermembrane space
+r_1746	1	dihydroxyacetone phosphate	product	mitochondrial intermembrane space
+r_1746	1.8	PMF	product	mitochondrion
+r_1766	1	farnesyl diphosphate	reactant	cytoplasm
+r_1766	2.7	PMF	reactant	mitochondrion
+r_1766	1	farnesyl diphosphate	product	mitochondrion
+r_1766	2.7	PMF	product	mitochondrial intermembrane space
+r_1809	1	glycerol 3-phosphate	reactant	mitochondrial intermembrane space
+r_1809	1.8	PMF	reactant	mitochondrion
+r_1809	1	glycerol 3-phosphate	product	mitochondrion
+r_1809	1.8	PMF	product	mitochondrial intermembrane space
+r_1846	1	indole-3-acetate	reactant	cytoplasm
+r_1846	0.9	PMF	reactant	mitochondrion
+r_1846	1	indole-3-acetate	product	mitochondrion
+r_1846	0.9	PMF	product	mitochondrial intermembrane space
+r_1919	1	L-lysine	reactant	cytoplasm
+r_1919	0.9	PMF	reactant	mitochondrial intermembrane space
+r_1919	1	L-lysine	product	mitochondrion
+r_1919	0.9	PMF	product	mitochondrion
+r_2022	1	protoporphyrinogen	reactant	cytoplasm
+r_2022	1.8	PMF	reactant	mitochondrion
+r_2022	1	protoporphyrinogen	product	mitochondrion
+r_2022	1.8	PMF	product	mitochondrial intermembrane space
+MNXR105607	1	L-lysine	reactant	cytoplasm
+MNXR105607	1	ornithine	reactant	mitochondrion
+MNXR105607	1	L-lysine	product	mitochondrion
+MNXR105607	1	ornithine	product	cytoplasm
+[2Fe-2S] iron-sulfur cluster transport	1	ATP	reactant	mitochondrion
+[2Fe-2S] iron-sulfur cluster transport	1	H2O	reactant	mitochondrion
+[2Fe-2S] iron-sulfur cluster transport	1	[2Fe-2S] iron-sulfur cluster	reactant	mitochondrion
+[2Fe-2S] iron-sulfur cluster transport	1.8	PMF	reactant	mitochondrion
+[2Fe-2S] iron-sulfur cluster transport	1	ADP	product	mitochondrion
+[2Fe-2S] iron-sulfur cluster transport	1	H+	product	mitochondrion
+[2Fe-2S] iron-sulfur cluster transport	1	phosphate	product	mitochondrion
+[2Fe-2S] iron-sulfur cluster transport	1	[2Fe-2S] iron-sulfur cluster	product	cytoplasm
+[2Fe-2S] iron-sulfur cluster transport	1.8	PMF	product	mitochondrial intermembrane space
+[4Fe-4S] iron-sulfur cluster transport	1	ATP	reactant	mitochondrion
+[4Fe-4S] iron-sulfur cluster transport	1	H2O	reactant	mitochondrion
+[4Fe-4S] iron-sulfur cluster transport	1	[4Fe-4S] iron-sulfur cluster	reactant	mitochondrion
+[4Fe-4S] iron-sulfur cluster transport	1.8	PMF	reactant	mitochondrion
+[4Fe-4S] iron-sulfur cluster transport	1	ADP	product	mitochondrion
+[4Fe-4S] iron-sulfur cluster transport	1	H+	product	mitochondrion
+[4Fe-4S] iron-sulfur cluster transport	1	phosphate	product	mitochondrion
+[4Fe-4S] iron-sulfur cluster transport	1	[4Fe-4S] iron-sulfur cluster	product	cytoplasm
+[4Fe-4S] iron-sulfur cluster transport	1.8	PMF	product	mitochondrial intermembrane space
+folate transport, mitochondrial	1	folate	reactant	cytoplasm
+folate transport, mitochondrial	1.8	PMF	reactant	mitochondrion
+folate transport, mitochondrial	1	folate	product	mitochondrion
+folate transport, mitochondrial	1.8	PMF	product	mitochondrial intermembrane space
+dethiobiotin transport	1	dethiobiotin	reactant	cytoplasm
+dethiobiotin transport	0.9	PMF	reactant	mitochondrion
+dethiobiotin transport	1	dethiobiotin	product	mitochondrion
+dethiobiotin transport	0.9	PMF	product	mitochondrial intermembrane space
+biotin transport	1	biotin	reactant	mitochondrion
+biotin transport	0.9	PMF	reactant	mitochondrial intermembrane space
+biotin transport	1	biotin	product	cytoplasm
+biotin transport	0.9	PMF	product	mitochondrion
+2-hydroxyglutarate transport	1	2-hydroxyglutarate	reactant	cytoplasm
+2-hydroxyglutarate transport	1.8	PMF	reactant	mitochondrion
+2-hydroxyglutarate transport	1	2-hydroxyglutarate	product	mitochondrion
+2-hydroxyglutarate transport	1.8	PMF	product	mitochondrial intermembrane space
+hydrogen sulfide transport	1	hydrogen sulfide	reactant	cytoplasm
+hydrogen sulfide transport	0.9	PMF	reactant	mitochondrion
+hydrogen sulfide transport	1	hydrogen sulfide	product	mitochondrion
+hydrogen sulfide transport	0.9	PMF	product	mitochondrial intermembrane space
+Magnesium transporter MRS2, mitochondrial (RNA-splicing protein MRS2)	1	Mg(2+)	reactant	cytoplasm
+Magnesium transporter MRS2, mitochondrial (RNA-splicing protein MRS2)	1.8	PMF	reactant	mitochondrial intermembrane space
+Magnesium transporter MRS2, mitochondrial (RNA-splicing protein MRS2)	1	Mg(2+)	product	mitochondrion
+Magnesium transporter MRS2, mitochondrial (RNA-splicing protein MRS2)	1.8	PMF	product	mitochondrion
+ferroheme b transport	1	ferroheme b	reactant	mitochondrion
+ferroheme b transport	1.8	PMF	reactant	mitochondrial intermembrane space
+ferroheme b transport	1	ferroheme b	product	mitochondrial intermembrane space
+ferroheme b transport	1.8	PMF	product	mitochondrion

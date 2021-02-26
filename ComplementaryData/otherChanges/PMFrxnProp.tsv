@@ -1,0 +1,63 @@
+RxnID	REV	GPR	RxnName	RxnKEGGid	Notes	Reference
+r_0439	0	( Q0105 and YBL045C and YDR529C and YEL024W and YEL039C and YFR033C and YGR183C and YHR001W-A and YJL166W and YOR065W and YPR191W ) or ( Q0105 and YBL045C and YDR529C and YEL024W and YFR033C and YGR183C and YHR001W-A and YJL166W and YJR048W and YOR065W and YPR191W )	ubiquinol:ferricytochrome c reductase			
+r_0438	0	(Q0045 and Q0250 and Q0275 and YDL067C and YEL039C and YGL187C and YGL191W and YHR051W and YIL111W and YLR038C and YLR395C and YMR256C) or (Q0045 and Q0250 and Q0275 and YDL067C and YEL039C and YGL187C and YGL191W and YHR051W and YLR038C and YLR395C and YMR256C and YNL052W) or (Q0045 and Q0250 and Q0275 and YDL067C and YGL187C and YGL191W and YHR051W and YIL111W and YJR048W and YLR038C and YLR395C and YMR256C) or (Q0045 and Q0250 and Q0275 and YDL067C and YGL187C and YGL191W and YHR051W and YJR048W and YLR038C and YLR395C and YMR256C and YNL052W) or (Q0045 and Q0250 and Q0275 and YDL067C and YHR116W and YDR231C and YGR062C and YJL003W and YPL132W and YLL018C-A)	ferrocytochrome-c:oxygen oxidoreductase			21964735
+r_0226	0	(Q0080 and Q0085 and Q0130 and YBL099W and YBR039W and YDL004W and YDR298C and YDR322C-A and YDR377W and YJR121W and YKL016C and YLR295C and YML081C-A and YPL078C and YPL271W) or (Q0080 and Q0085 and Q0130 and YBL099W and YBR039W and YDL004W and YDR298C and YDR377W and YJR121W and YKL016C and YLR295C and YML081C-A and YPL078C and YPL271W and YPR020W) or (Q0080 and Q0085 and Q0130 and YBL099W and YBR039W and YDL004W and YDR298C and YDR322C-A and YDR377W and YJR121W and YKL016C and YLR295C and YML081C-A and YPL078C and YPL271W and YJL180C and YLR393W and YNL315C and YOL077W-A and YCL005W-A)	ATP synthase			"6223276; 10576729"
+r_1110	1	( YBL030C or YBR085W or YMR056C )	ADP/ATP transporter			
+r_1112	0	YMR241W	AKG transporter, mitochonrial			
+r_1118	0	YPR021C	aspartate-glutamate transporter			
+r_1126	0	YBR291C	citrate/malate transport		Carrier accets citrate(2-), transport is electroneutral	7876161
+r_1127	0	YBR291C	citrate/phosphoenolpyruvate transport			7876161
+r_1128	0	YBR291C	citrate/isocitrate transport		proton coupled to prevent unrealistic behavior	7876161
+r_1128_REV	0	YBR291C	citrate/isocitrate transport, reverse direction		proton coupled to prevent unrealistic behavior	7876161
+r_1129	0	YHR002W	coenzyme A transport			11158296
+r_1130	0	YBR192W	CTP transport			16844075
+r_1131	0	YBR192W	CTP/CMP antiport			16844075
+r_1137	0	YKL217W	D-lactate transport			10198029
+r_1151	0	YIL134W	FAD transport			8631763
+r_1175	0	YDL198C	GTP/GDP translocase		Electroneutral, but transports protons	14998997
+r_1179	0	( YJL133W or YKR052C )	iron (II) transport			19285482
+r_1194	0	( YPR021C or YBR104W )	L-glutamate transport			"14622413;30297026"
+r_1229	0	( YEL006W or YIL006W )	NAD transport			16291748
+r_1230	0	( YEL006W or YIL006W )	NAD transport			16291748
+r_1231	0	( YEL006W or YIL006W )	NAD transport			16291748
+r_1232	0	( YEL006W or YIL006W )	NAD transport			16291748
+r_1237	0	YOR130C	ornithine transport			9237680
+r_1239	0	YKL120W	oxaloacetate transport			10428783
+r_1245	0	( YER053C or YJR077C )	phosphate transport		Transported species is H2PO4, thus electroneutral	
+r_1574	0	YKL120W	2-isopropylmalate/oxaloacetate antiport			18682385
+r_1256	0	YNL003C	S-adenosyl-L-methionine transport			14609944
+r_2042	0	YNL003C	S-adenosyl-L-methionine - S-adenosyl-L-homocysteine transport			14609944
+r_1275	0	YBR192W	UTP transport			16844075
+r_1276	0	YBR192W	UTP/UMP antiport			16194150
+MNXR95946	0	YOR130C	L-arginine - ornithine transport			9237680
+r_2034	0	(YGL080W and YGR243W) or (YGL080W and YHR162W)	pyruvate transport			22628558
+r_1568	1		2-dehydropantoate transport			
+r_1585	0		2-oxobutanoate transport		 H+-coupled in Human, assumed to use same mechanism	
+r_1965	1		NH3 transport			
+r_2129	0		proton leak			
+r_1595	1		3-carboxy-4-methyl-2-oxopentanoate transport			
+r_1596	0		3-methyl-2-oxopentanoate transport			
+r_1743	1		dihydrofolate transport			
+r_1745	1		dihydropteroate transport			
+r_1606	1		4-aminobenzoate transport			
+r_1607	1		4-aminobutanal transport			
+r_1609	1		4-hydroxy-2-oxoglutarate transport			
+r_1611	1		4-hydroxybenzoate transport			
+r_1642	1		adenosine 3',5'-bisphosphate transport		In Human SLC25A42, transport is an exchange for CoA PMID:19429682. Assume the same mechanism	19429682
+r_1657	1		L-arginine transport			9874237
+r_1746	1	YOR130C	dihydroxyacetone phosphate transport			
+r_1766	1		farnesyl diphosphate transport			
+r_1809	1		glycerol-3-phosphate shuttle			
+r_1846	1		indole-3-acetate transport			
+r_1919	0		lysine transport			
+r_2022	1		protoporphyrinogen IX transport			
+MNXR105607	0	YOR130C	L-lysine - ornithine transport			9237680
+[2Fe-2S] iron-sulfur cluster transport	0	YMR301C	[2Fe-2S] iron-sulfur cluster transport			10406803
+[4Fe-4S] iron-sulfur cluster transport	0	YMR301C	[4Fe-4S] iron-sulfur cluster transport			10406803
+folate transport, mitochondrial	1		folate transport, mitochondrial			
+dethiobiotin transport	1		dethiobiotin transport			
+biotin transport	0		biotin transport			
+2-hydroxyglutarate transport	1		2-hydroxyglutarate transport			
+hydrogen sulfide transport	1		hydrogen sulfide transport			
+Magnesium transporter MRS2, mitochondrial (RNA-splicing protein MRS2)	1		Magnesium transporter MRS2, mitochondrial (RNA-splicing protein MRS2)			
+ferroheme b transport	1		ferroheme b transport			 
