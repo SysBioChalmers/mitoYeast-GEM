@@ -52,7 +52,6 @@ model = rescalePseudoReaction(model,'carbohydrate',fC);
 %cd ../../../yeast-GEM/ComplementaryScripts/modelCuration/
 sumBioMass(model,biomassData);
 
-cd ../../../mitoYeastGEM/ComplementaryScripts/
 cd ../
 
 end
