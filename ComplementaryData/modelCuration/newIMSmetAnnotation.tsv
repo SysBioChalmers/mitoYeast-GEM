@@ -40,3 +40,6 @@ superoxide [mitochondrial intermembrane space]	O2	0	mitochondrial intermembrane 
 oxygen [mitochondrial intermembrane space]	O2	-1	mitochondrial intermembrane space	C00704	CHEBI:18421	based on chebi
 (R)-lactate [mitochondrial intermembrane space]	C3H5O3	-1	mitochondrial intermembrane space	C00256	CHEBI:16004	based on kegg
 GDP [mitochondrial intermembrane space]	C10H12N5O11P2	-3	mitochondrial intermembrane space	C00035	CHEBI:58189	based on kegg
+ferroheme b [mitochondrial intermembrane space]	C34H30FeN4O4	-2	mitochondrial intermembrane space	C00032	CHEBI:60344	based on chebi
+ferroheme b [cytoplasm]	C34H30FeN4O4	-2	cytoplasm	C00032	CHEBI:60344	based on chebi
+heme a [mitochondrial intermembrane space]	C49H56FeN4O6	0	mitochondrial intermembrane space	C15670	CHEBI:24479	based on chebi

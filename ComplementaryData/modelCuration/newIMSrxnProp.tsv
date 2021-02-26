@@ -11,7 +11,11 @@ R00127	0	YDR226W	adenylate kinase	2.7.4.3	"sce00230 Purine metabolism;sce00730 T
 R02480	1	( YAL039C or YKL087C )	Cytochrome c apocytochrome-c-lyase	4.4.1.17	sce00860 Porphyrin and chlorophyll metabolism	R02480
 R00196	0	( YEL039C and YML054C ) or ( YJR048W and YML054C )	(S)-Lactate:ferricytochrome-c 2-oxidoreductase	1.1.2.3	sce00620 Pyruvate metabolism	R00196
 R08657	0	YIL155C	glycerol-3-phosphate dehydrogenase (fad)	1.1.5.3	"sce00564 Glycerophospholipid metabolism;sce01110 Biosynthesis of secondary metabolites"	R08657
+r_4152	1	( YAL039C or YKL087C or YOR037W )	Cytochrome c apocytochrome-c-lyase	4.4.1.17	sce00860 Porphyrin and chlorophyll metabolism	R02480
+r_0004	0	( YEL039C and YML054C ) or ( YJR048W and YML054C )	(S)-Lactate:ferricytochrome-c 2-oxidoreductase	1.1.2.3	sce00620 Pyruvate metabolism	R00196
+r_0490	0	YIL155C	glycerol-3-phosphate dehydrogenase (fad)	1.1.5.3	"sce00564 Glycerophospholipid metabolism;sce01110 Biosynthesis of secondary metabolites"	R08657
 r_0437	0	(YEL039C and YKR066C) or (YJR048W and YKR066C)	ferrocytochrome-c:hydrogen-peroxide oxidoreductase	1.11.1.5		R00017
+r_4040	1		heme a transport			
 R00274	0	YIR037W	glutathione:hydrogen-peroxide oxidoreductase	1.11.1.9	sce00480  Glutathione metabolism	R00274
 R02016	0	( YLR043C and YDR353W )	NADPH:oxidized-thioredoxin oxidoreductase	1.8.1.9	sce00450  Selenocompound metabolism	R02016
 R00132	1	YNL036W	carbonic acid hydro-lyase	4.2.1.1	sce00910 Nitrogen metabolism	R00132
@@ -32,4 +36,7 @@ MNXR102089	1		superoxide diffusion
 MNXR98640_1	1		hydrogen peroxide diffusion			
 MNXR98640_2	1		hydrogen peroxide diffusion			 
 MNXR101896	1		NADP(+) passive transport			
-MNXR101894	1		NADPH passive transport			 
+MNXR101894	1		NADPH passive transport			 MNXR101894	1		NADPH passive transport			 
+heme a passive transport	1		heme a passive transport			
+MNXR102625	1		ferroheme b transport			
+ferroheme b passive transport	1		ferroheme b passive transport			 

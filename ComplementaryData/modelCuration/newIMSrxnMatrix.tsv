@@ -50,6 +50,8 @@ r_0437	2	ferrocytochrome c	reactant	mitochondrial intermembrane space
 r_0437	1	hydrogen peroxide	reactant	mitochondrial intermembrane space
 r_0437	2	ferricytochrome c	product	mitochondrial intermembrane space
 r_0437	2	H2O	product	mitochondrial intermembrane space
+r_4040	1	heme a	reactant	mitochondrion
+r_4040	1	heme a	product	mitochondrial intermembrane space
 R00274	1	TRX1	reactant	mitochondrial intermembrane space
 R00274	1	hydrogen peroxide	reactant	mitochondrial intermembrane space
 R00274	1	TRX1 disulphide	product	mitochondrial intermembrane space
@@ -104,3 +106,9 @@ MNXR101896	1	NADP(+)	reactant	cytoplasm
 MNXR101896	1	NADP(+)	product	mitochondrial intermembrane space
 MNXR101894	1	NADPH	reactant	cytoplasm
 MNXR101894	1	NADPH	product	mitochondrial intermembrane space
+heme a passive transport	1	heme a	reactant	mitochondrial intermembrane space
+heme a passive transport	1	heme a	product	cytoplasm
+MNXR102625	1	ferroheme b	reactant	mitochondrion
+MNXR102625	1	ferroheme b	product	mitochondrial intermembrane space
+ferroheme b passive transport	1	ferroheme b	reactant	mitochondrial intermembrane space
+ferroheme b passive transport	1	ferroheme b	product	cytoplasm
