@@ -1,72 +1,9 @@
 rxnID	coefficient	Metabolite standard name	Metabolite_type	compartment
-R02480	1	Cytochrome c	reactant	mitochondrion
-R02480	1	Apocytochrome c	product	mitochondrion
-R02480	1	ferroheme b	product	mitochondrion
-R11528	1	(sulfur carrier)-H	reactant	mitochondrion
-R11528	1	L-cysteine	reactant	mitochondrion
-R11528	1	(sulfur carrier)-SH	product	mitochondrion
-R11528	1	L-alanine	product	mitochondrion
-R03661	1	L-proline	reactant	mitochondrion
-R03661	1	ATP	reactant	mitochondrion
-R03661	1	tRNA(Pro)	reactant	mitochondrion
-R03661	1	Pro-tRNA(Pro)	product	mitochondrion
-R03661	1	AMP	product	mitochondrion
-R03661	1	diphosphate	product	mitochondrion
-R04734	1	4a-Hydroxytetrahydrobiopterin	reactant	mitochondrion
-R04734	1	Dihydrobiopterin	product	mitochondrion
-R04734	1	H2O	product	mitochondrion
-R00275_2	2	H+	reactant	mitochondrion
-R00275_2	2	superoxide	reactant	mitochondrion
-R00275_2	1	hydrogen peroxide	product	mitochondrion
-R00275_2	1	oxygen	product	mitochondrion
-R00100_2	1	NADH	reactant	mitochondrion
-R00100_2	2	Ferricytochrome b5	reactant	mitochondrion
-R00100_2	1	NAD	product	mitochondrion
-R00100_2	2	Ferrocytochrome b5	product	mitochondrion
-R00100_2	1	H+	product	mitochondrion
-R00078	4	iron(2+)	reactant	mitochondrion
-R00078	4	H+	reactant	mitochondrion
-R00078	1	oxygen	reactant	mitochondrion
-R00078	4	iron(3+)	product	mitochondrion
-R00078	2	H2O	product	mitochondrion
-R03352	1	3-hydroxy-2-methylpropanoyl-CoA	reactant	mitochondrion
-R03352	1	H2O	reactant	mitochondrion
-R03352	1	3-hydroxy-2-methylpropanoate	product	mitochondrion
-R03352	1	coenzyme A	product	mitochondrion
-R03352	1	H+	product	mitochondrion
-R01799	1	CTP	reactant	mitochondrion
-R01799	1	phosphatidate	reactant	mitochondrion
-R01799	1	diphosphate	product	mitochondrion
-R01799	1	H+	product	mitochondrion
-R01799	1	CDP-diacylglycerol	product	mitochondrion
-R12024_2	1	N-(4-oxoglutarate)-L-cysteinylglycine	reactant	mitochondrion
-R12024_2	1	H2O	reactant	mitochondrion
-R12024_2	1	2-oxoglutarate	product	mitochondrion
-R12024_2	1	L-cysteinylglycine	product	mitochondrion
-R01324	1	citrate	reactant	mitochondrion
-R01324	1	isocitrate	product	mitochondrion
-R00402	1	succinate	reactant	mitochondrion
-R00402	1	NAD	reactant	mitochondrion
-R00402	1	fumarate	product	mitochondrion
-R00402	1	NADH	product	mitochondrion
-R00402	1	H+	product	mitochondrion
-R01931	1	hydrogen cyanide	reactant	mitochondrion
-R01931	1	thiosulfate	reactant	mitochondrion
-R01931	1	H+	product	mitochondrion
-R01931	1	sulphite	product	mitochondrion
-R01931	1	thiocyanate	product	mitochondrion
-MNXR101505	1	Mg(2+)	product	mitochondrion
-MNXR124629	1	porphyrin	reactant	mitochondrion
-MNXR124629	1	ATP	reactant	mitochondrion
-MNXR124629	1	H2O	reactant	mitochondrion
-MNXR124629	1	ADP	product	mitochondrion
-MNXR124629	1	phosphate	product	mitochondrion
-MNXR124629	1	H+	product	mitochondrion
-MNXR105277_2	1	Zn(2+)	reactant	mitochondrion
-R03522_4	1	RX	reactant	mitochondrion
-R03522_4	1	glutathione	reactant	mitochondrion
-R03522_4	1	HX	product	mitochondrion
-R03522_4	1	R-S-glutathione	product	mitochondrion
+r_4264	1	fumarate	reactant	mitochondrion
+r_4264	1	NADH	reactant	mitochondrion
+r_4264	1	H+	reactant	mitochondrion
+r_4264	1	succinate	product	mitochondrion
+r_4264	1	NAD	product	mitochondrion
 r_0229	1	(sulfur carrier)-SH	reactant	mitochondrion
 r_0229	1	dethiobiotin	reactant	mitochondrion
 r_0229	2	reduced ferredoxin	reactant	mitochondrion
@@ -87,9 +24,9 @@ r_0530	1	oxygen	reactant	mitochondrion
 r_0530	1	H2O	product	mitochondrion
 r_0530	1	heme a	product	mitochondrion
 r_0530	2	oxidized ferredoxin	product	mitochondrion
-R06865	1	3-hexaprenyl-4-hydroxybenzoic acid	reactant	mitochondrion
-R06865	0.5	oxygen	reactant	mitochondrion
-R06865	1	3-hexaprenyl-4,5-dihydroxybenzoic acid	product	mitochondrion
+r_0043	1	3-hexaprenyl-4-hydroxybenzoic acid	reactant	mitochondrion
+r_0043	0.5	oxygen	reactant	mitochondrion
+r_0043	1	3-hexaprenyl-4,5-dihydroxybenzoic acid	product	mitochondrion
 R03038	1	ATP	reactant	mitochondrion
 R03038	1	L-alanine	reactant	mitochondrion
 R03038	1	tRNA(Ala)	reactant	mitochondrion
@@ -221,14 +158,6 @@ R02236	1	NADPH	product	mitochondrion
 R02236	1	H+	product	mitochondrion
 folate transport	1	folate	reactant	cytoplasm
 folate transport	1	folate	product	mitochondrion
-r_0439	1.998	ferricytochrome c	reactant	mitochondrion
-r_0439	1.2647	H+	reactant	mitochondrion
-r_0439	0.999	ubiquinol-6	reactant	mitochondrion
-r_0439	0.001	oxygen	reactant	cytoplasm
-r_0439	1.998	ferrocytochrome c	product	mitochondrion
-r_0439	2.5295	H+	product	cytoplasm
-r_0439	0.999	ubiquinone-6	product	mitochondrion
-r_0439	0.001	superoxide	product	cytoplasm
 R00896	1	L-cysteine	reactant	mitochondrion
 R00896	1	2-oxoglutarate	reactant	mitochondrion
 R00896	1	mercaptopyruvate	product	mitochondrion
@@ -267,12 +196,6 @@ R09541	1	NADPH	reactant	mitochondrion
 R09541	2	iron(2+)	product	mitochondrion
 R09541	1	NADP(+)	product	mitochondrion
 R09541	1	H+	product	mitochondrion
-R00093	1	L-glutamine	reactant	mitochondrion
-R00093	1	2-oxoglutarate	reactant	mitochondrion
-R00093	1	NADH	reactant	mitochondrion
-R00093	1	H+	reactant	mitochondrion
-R00093	2	L-glutamate	product	mitochondrion
-R00093	1	NAD	product	mitochondrion
 R03652	1	ATP	reactant	mitochondrion
 R03652	1	L-glutamine	reactant	mitochondrion
 R03652	1	tRNA(Gln)	reactant	mitochondrion
@@ -287,3 +210,23 @@ r_0230	1	H+	product	cytoplasm
 r_0230	1	biotin (protein bound)	product	cytoplasm
 MNXR100259	1	L-glutamine	reactant	cytoplasm
 MNXR100259	1	L-glutamine	product	mitochondrion
+r_0940	1	L-proline	reactant	mitochondrion
+r_0940	1	ubiquinone-6	reactant	mitochondrial membrane
+r_0940	1	1-pyrroline-5-carboxylate	product	mitochondrion
+r_0940	1	ubiquinol-6	product	mitochondrial membrane
+R01931_2	1	hydrogen cyanide	reactant	cytoplasm
+R01931_2	1	thiosulfate	reactant	cytoplasm
+R01931_2	2	H+	product	cytoplasm
+R01931_2	1	sulphite	product	cytoplasm
+R01931_2	1	thiocyanate	product	cytoplasm
+r_0002	1	(R)-lactate	reactant	mitochondrion
+r_0002	1	ubiquinone-6	reactant	mitochondrial membrane
+r_0002	1	ubiquinol-6	product	mitochondrial membrane
+r_0002	1	pyruvate	product	mitochondrion
+[3Fe-4S] iron-sulfur cluster transport	1	ATP	reactant	mitochondrion
+[3Fe-4S] iron-sulfur cluster transport	1	H2O	reactant	mitochondrion
+[3Fe-4S] iron-sulfur cluster transport	1	[3Fe-4S] iron-sulfur cluster	reactant	mitochondrion
+[3Fe-4S] iron-sulfur cluster transport	1	ADP	product	mitochondrion
+[3Fe-4S] iron-sulfur cluster transport	1	H+	product	mitochondrion
+[3Fe-4S] iron-sulfur cluster transport	1	phosphate	product	mitochondrion
+[3Fe-4S] iron-sulfur cluster transport	1	[3Fe-4S] iron-sulfur cluster	product	cytoplasm

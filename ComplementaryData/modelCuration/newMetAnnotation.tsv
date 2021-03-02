@@ -1,43 +1,6 @@
 NewMetName	Charged formula	Charge	compartment	KEGG ID	CHEBI ID	Remark
-Cytochrome c [mitochondrion]	C40H40FeN6O6S2	-2	mitochondrion	C00524	CHEBI:83739	based on Rhea
-Apocytochrome c [mitochondrion]	C6H10N2O2S2	0	mitochondrion	C02248	CHEBI:15697	based on Rhea
-L-glutamine [mitochondrion]	C5H10N2O3	0	mitochondrion	C00064	CHEBI:18050	based on chebi
 tRNA(Gln) [mitochondrion]	R	0	mitochondrion	C01640	CHEBI:29168	based on chebi
 Gln-tRNA(Gln) [mitochondrion]	C20H29N7O12PR	0	mitochondrion	C02282	CHEBI:29166	based on kegg
-(sulfur carrier)-H [mitochondrion]	HSR	0	mitochondrion			General type
-L-cysteine [mitochondrion]	C3H7NO2S	0	mitochondrion	C00097	CHEBI:17561	based on chebi
-(sulfur carrier)-SH [mitochondrion]	HS2R	0	mitochondrion			General type
-tRNA(Pro) [mitochondrion]	R	-1	mitochondrion	C01649	CHEBI:29177	Present in yeast model
-Pro-tRNA(Pro) [mitochondrion]	C5H8NOR	0	mitochondrion	C02702	CHEBI:29154	Present in yeast model
-4a-Hydroxytetrahydrobiopterin [mitochondrion]	C9H15N5O4	0	mitochondrion	C15522	CHEBI:15642	based on metnx
-Dihydrobiopterin [mitochondrion]	C9H13N5O3	0	mitochondrion	C00268	CHEBI:20680	based on metnx
-superoxide [mitochondrion]	O2	-1	mitochondrion	C00704	CHEBI:18421	based on metnx
-Ferricytochrome b5 [mitochondrion]	Fe	3	mitochondrion	C00996	CHEBI:18097	based on kegg and Rhea
-Ferrocytochrome b5 [mitochondrion]	Fe	2	mitochondrion	C00999		based on kegg and Rhea
-iron(3+) [mitochondrion]	Fe	3	mitochondrion	C14819	CHEBI:29034	based on chebi
-3-hydroxy-2-methylpropanoyl-CoA [mitochondrion]	C25H38N7O18P3S	-4	mitochondrion	C04047	CHEBI:57340	based on chebi
-3-hydroxy-2-methylpropanoate [mitochondrion]	C4H7O3	-1	mitochondrion	C01188	CHEBI:11805	based on metnx
-hydrogen sulfide	HS	-1	mitochondrion	C00283	CHEBI:29919	Present in yeast model
-phosphatidate [mitochondrion]	C5H7O8PR2	0	mitochondrion	C00416	CHEBI:16337	based on chebi
-CDP-diacylglycerol [mitochondrion]	C14H17N3O15P2R2	-2	mitochondrion	C00269	CHEBI:58332	based on chebi
-N-(4-oxoglutarate)-L-cysteinylglycine [mitochondrion]	C10H12N2O7S	-2	mitochondrion		CHEBI:138256	based on chebi
-L-cysteinylglycine [mitochondrion]	C5H10N2O3S	0	mitochondrion	C01419	CHEBI:4047	based on chebi
-Apoprotein [mitochondrion]	NH2R	0	mitochondrion	C16240	CHEBI:13850	based on kegg
-Protein N6-(octanoyl)lysine [mitochondrion]	C8H16NOR	0	mitochondrion	C16236	CHEBI:80398	based on metnx
-Lipoyl-[acp] [mitochondrion]	C8H13OS3R	0	mitochondrion	C16239	CHEBI:80400	based on metnx
-Protein N6-(lipoyl)lysine [mitochondrion]	C8H14NOS2R	0	mitochondrion	C16237	CHEBI:80399	based on metnx
-Sulfur donor [mitochondrion]		0	mitochondrion	C17023	CHEBI:80867	based on kegg
-5'-deoxyadenosine [mitochondrion]	C10H13N5O3	0	mitochondrion	C05198	CHEBI:17319	based on metnx
-hydrogen cyanide [mitochondrion]	CHN	0	mitochondrion	C01326	CHEBI:18407	based on metnx
-thiosulfate [mitochondrion]	HO3S2	-1	mitochondrion	C00320	CHEBI:33541	based on chebi
-sulphite [mitochondrion]	O3S	-2	mitochondrion	C11481	CHEBI:17359	based on chebi
-thiocyanate [mitochondrion]	CHNS	0	mitochondrion	C01755	CHEBI:29200	based on chebi
-Mg(2+) [mitochondrion]	Mg	2	mitochondrion	C00305	CHEBI:18420	based on metnx
-porphyrin [mitochondrion]	C20H14N4	0	mitochondrion	C05113	CHEBI:8337	based on metnx
-Zn(2+) [mitochondrion]	Zn	2	mitochondrion	C00038	CHEBI:29105	based on metnx
-RX [mitochondrion]	RX	0	mitochondrion	C01322	CHEBI:17792	based on metnx
-HX [mitochondrion]	X	-1	mitochondrion	C00462	CHEBI:16042	based on metnx
-R-S-glutathione [mitochondrion]	C10H15N3O6SR	-1	mitochondrion	C02320	CHEBI:90779	based on chebi
 dethiobiotin [mitochondrion]	C10H18N2O3	0	mitochondrion	C01909	CHEBI:16691	based on kegg and Rhea
 S-adenosyl-L-methionine [mitochondrion]	C15H23N6O5S	1	mitochondrion	C00019	CHEBI:59789	based on kegg and Rhea
 reduced ferredoxin [mitochondrion]	Fe2S2R	1	mitochondrion	C00138	CHEBI:17513	based on metnx
@@ -66,7 +29,7 @@ ISU scaffold protein-[2Fe-2S] [mitochondrion]	Fe2S6R	-2	mitochondrion			general 
 [4Fe-4S] iron-sulfur cluster [cytoplasm]	Fe4S4	2	cytoplasm		CHEBI:33722	based on chebi
 [2Fe-2S] iron-sulfur cluster [cytoplasm]	Fe2S2	2	cytoplasm		CHEBI:33737	based on chebi
 (R)-lipoate [mitochondrion]	C8H13O2S2	-1	mitochondrion	C16241	CHEBI:83088	based on chebi
-O-propionyl-carnitine [mitochondrion]	C10H19NO4	0	cytoplasm	C03017	CHEBI:28867	based on chebi
+O-propionyl-carnitine [cytoplasm]	C10H19NO4	0	cytoplasm	C03017	CHEBI:28867	based on chebi
 O-propionyl-carnitine [mitochondrion]	C10H19NO4	0	mitochondrion	C03017	CHEBI:28867	based on chebi
 folate [mitochondron]	C19H17N7O6	-2	mitochondrion	C00504	CHEBI:62501	based on chebi
 TRX3 [mitochondrion]	C6H9NO2S2R2	0	mitochondrion	C00342	CHEBI:15967	based on chebi
@@ -77,3 +40,7 @@ ACP1 [mitochondrion]	C11H21N2O7PRS	-1	mitochondrion	C00229	CHEBI:18359	based on 
 octanoyl-ACP [mitochondrion]	C19H35N2O8PRS	-1	mitochondrion	C05752	CHEBI:7725	based on metanetx
 lipoate (protein bound) [mitochondrion]	C8H13OS2	1	mitochondrion			based on metanetx
 biotin (protein bound) [cytoplasm]	C10H13N2O2S	0	cytoplasm			general type
+hydrogen cyanide [cytoplasm]	CHN	0	cytoplasm	C01326	CHEBI:18407	based on metnx
+thiosulfate [cytoplasm]	HO3S2	-1	cytoplasm	C00320	CHEBI:33541	based on chebi
+thiocyanate [cytoplasm]	CHNS	0	cytoplasm	C01755	CHEBI:29200	based on chebi
+[3Fe-4S] iron-sulfur cluster [cytoplasm]	Fe3S4	0	cytoplasm		CHEBI:47402	based on chebi
