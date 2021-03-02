@@ -9,7 +9,7 @@ function model = addCofactorsToBiomass(model)
 
 % Load data on biomass components
 cd ../../ComplementaryData/Physiology/
-fid = fopen('biomassComponents.txt');
+fid = fopen('biomassComponents.tsv');
 bd  = textscan(fid,'%s %s %s %s %s','Delimiter','\t','HeaderLines',1);
 biomassData.mets   = bd{1};
 biomassData.MWs    = cellfun(@str2num,bd{4});

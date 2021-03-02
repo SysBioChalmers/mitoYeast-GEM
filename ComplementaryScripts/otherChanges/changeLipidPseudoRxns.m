@@ -8,7 +8,7 @@ function model = changeLipidPseudoRxns(model)
 model_old = model;
 
 % read data from Ejsing et al. 2009
-cd ../../SLIMEr/data
+cd ../../../SLIMEr/data
 data = readEjsingData(1);
 cd ../../mitoYeast-GEM/ComplementaryScripts/otherChanges/
 data = convertEjsingData(data,model,true);
@@ -122,7 +122,7 @@ end
 % Read file with biomass composition data
 cd ../../mitoYeast-GEM/ComplementaryData/Physiology/
 
-fid = fopen('biomassComponents.txt');
+fid = fopen('biomassComponents.tsv');
 bd  = textscan(fid,'%s %s %s %s %s','Delimiter','\t','HeaderLines',1);
 biomassData.mets   = bd{1};
 biomassData.MWs    = cellfun(@str2num,bd{4});

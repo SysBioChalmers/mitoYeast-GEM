@@ -12,16 +12,22 @@ function model = updateMitoGPR(model)
 % Load file with updated GPRs
 cd ../../ComplementaryData/modelCuration/
 fid             = fopen('updateMitoGPRs.tsv');
-updateGPR       = textscan(fid, '%s%s%s', 'Delimiter', '\t', 'HeaderLines',1);
+updateGPR       = textscan(fid, '%s%s%s%s', 'Delimiter', '\t', 'HeaderLines',1);
 newGPR.rxnID    = updateGPR{1};
-newGPR.oldGPR   = updateGPR{2};
-newGPR.GPR      = updateGPR{3};
+newGPR.rxnName  = updateGPR{2};
+newGPR.oldGPR   = updateGPR{3};
+newGPR.GPR      = updateGPR{4};
 fclose(fid);
 
 % update GPR
 for i = 1:length(newGPR.rxnID)
-   rxnInd = find(strcmp(model.rxns, newGPR.rxnID(i)));
-   model  = changeGeneAssociation(model, model.rxns{rxnInd}, newGPR.GPR{i});
+    rxnID  = newGPR.rxnID{i};
+    rxnInd = strcmp(model.rxns,rxnID);
+    if sum(rxnInd) == 1 && strcmp(model.rxnNames{rxnInd},newGPR.rxnName{i})
+        model  = changeGeneAssociation(model, model.rxns{rxnInd}, newGPR.GPR{i});
+    else
+        disp(['RxnID ' rxnID ' does not match with the rxnName specified']);
+    end
 end
 
 % Delete any unused genes
