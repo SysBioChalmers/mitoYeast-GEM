@@ -1,51 +1,16 @@
 rxnID	coefficient	Metabolite standard name	Metabolite_type	compartment
-R00570	1	ATP	reactant	mitochondrial intermembrane space
-R00570	1	CDP	reactant	mitochondrial intermembrane space
-R00570	1	ADP	product	mitochondrial intermembrane space
-R00570	1	CTP	product	mitochondrial intermembrane space
-R01137	1	ATP	reactant	mitochondrial intermembrane space
-R01137	1	dADP	reactant	mitochondrial intermembrane space
-R01137	1	ADP	product	mitochondrial intermembrane space
-R01137	1	dATP	product	mitochondrial intermembrane space
-R02326	1	ATP	reactant	mitochondrial intermembrane space
-R02326	1	dCDP	reactant	mitochondrial intermembrane space
-R02326	1	ADP	product	mitochondrial intermembrane space
-R02326	1	dCTP	product	mitochondrial intermembrane space
-R01857	1	ATP	reactant	mitochondrial intermembrane space
-R01857	1	dGDP	reactant	mitochondrial intermembrane space
-R01857	1	ADP	product	mitochondrial intermembrane space
-R01857	1	dGTP	product	mitochondrial intermembrane space
-R02093	1	ATP	reactant	mitochondrial intermembrane space
-R02093	1	dTDP	reactant	mitochondrial intermembrane space
-R02093	1	ADP	product	mitochondrial intermembrane space
-R02093	1	dTTP	product	mitochondrial intermembrane space
-R00330	1	ATP	reactant	mitochondrial intermembrane space
-R00330	1	GDP	reactant	mitochondrial intermembrane space
-R00330	1	ADP	product	mitochondrial intermembrane space
-R00330	1	GTP	product	mitochondrial intermembrane space
-R02331	1	ATP	reactant	mitochondrial intermembrane space
-R02331	1	dUDP	reactant	mitochondrial intermembrane space
-R02331	1	ADP	product	mitochondrial intermembrane space
-R02331	1	dUTP	product	mitochondrial intermembrane space
-R00156	1	ATP	reactant	mitochondrial intermembrane space
-R00156	1	UDP	reactant	mitochondrial intermembrane space
-R00156	1	ADP	product	mitochondrial intermembrane space
-R00156	1	UTP	product	mitochondrial intermembrane space
-R00127	1	AMP	reactant	mitochondrial intermembrane space
-R00127	1	ATP	reactant	mitochondrial intermembrane space
-R00127	2	ADP	product	mitochondrial intermembrane space
-R02480	1	ferrocytochrome c	product	mitochondrial intermembrane space
-R02480	1	Apocytochrome c	reactant	mitochondrial intermembrane space
-R02480	1	ferroheme b	reactant	mitochondrial intermembrane space
-R00196	1	(S)-lactate	reactant	mitochondrial intermembrane space
-R00196	2	ferricytochrome c	reactant	mitochondrial intermembrane space
-R00196	2	ferrocytochrome c	product	mitochondrial intermembrane space
-R00196	2	H+	product	mitochondrial intermembrane space
-R00196	1	pyruvate	product	mitochondrial intermembrane space
-R08657	1	ubiquinone-6	reactant	mitochondrial membrane
-R08657	1	glycerol 3-phosphate	reactant	mitochondrial intermembrane space
-R08657	1	ubiquinol-6	product	mitochondrial membrane
-R08657	1	dihydroxyacetone phosphate	product	mitochondrial intermembrane space
+r_4152	1	ferrocytochrome c	product	mitochondrial intermembrane space
+r_4152	1	Apocytochrome c	reactant	mitochondrial intermembrane space
+r_4152	1	ferroheme b	reactant	mitochondrial intermembrane space
+r_0004	1	(S)-lactate	reactant	mitochondrial intermembrane space
+r_0004	2	ferricytochrome c	reactant	mitochondrial intermembrane space
+r_0004	2	ferrocytochrome c	product	mitochondrial intermembrane space
+r_0004	2	H+	product	mitochondrial intermembrane space
+r_0004	1	pyruvate	product	mitochondrial intermembrane space
+r_0490	1	ubiquinone-6	reactant	mitochondrial membrane
+r_0490	1	glycerol 3-phosphate	reactant	mitochondrial intermembrane space
+r_0490	1	ubiquinol-6	product	mitochondrial membrane
+r_0490	1	dihydroxyacetone phosphate	product	mitochondrial intermembrane space
 r_0437	2	ferrocytochrome c	reactant	mitochondrial intermembrane space
 r_0437	1	hydrogen peroxide	reactant	mitochondrial intermembrane space
 r_0437	2	ferricytochrome c	product	mitochondrial intermembrane space
@@ -82,16 +47,10 @@ MNXR100765	1	H+	reactant	cytoplasm
 MNXR100765	1	H+	product	mitochondrial intermembrane space
 (R)-lactate passive transport	1	(R)-lactate	reactant	cytoplasm
 (R)-lactate passive transport	1	(R)-lactate	product	mitochondrial intermembrane space
-ADP passive transport	1	ADP	reactant	cytoplasm
-ADP passive transport	1	ADP	product	mitochondrial intermembrane space
-ATP passive transport	1	ATP	reactant	cytoplasm
-ATP passive transport	1	ATP	product	mitochondrial intermembrane space
 MNXR100999	1	(S)-lactate	reactant	cytoplasm
 MNXR100999	1	(S)-lactate	product	mitochondrial intermembrane space
 ubiquinol-6 transport	1	ubiquinol-6	reactant	mitochondrion
 ubiquinol-6 transport	1	ubiquinol-6	product	mitochondrial membrane
-CTP passive diffusion	1	CTP	reactant	cytoplasm
-CTP passive diffusion	1	CTP	product	mitochondrial intermembrane space
 MNXR100308	1	glycerol 3-phosphate	reactant	cytoplasm
 MNXR100308	1	glycerol 3-phosphate	product	mitochondrial intermembrane space
 MNXR97366	1	dihydroxyacetone phosphate	reactant	cytoplasm

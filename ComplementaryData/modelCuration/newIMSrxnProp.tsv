@@ -1,16 +1,4 @@
 RxnID	REV	GPR	RxnName	EC	Subsystems	RxnKEGGid
-R00570	0	YKL067W	nucleoside diphosphate kinase	2.7.4.6	sce00240 Pyrimidine metabolism	R00570
-R01137	0	YKL067W	nucleoside diphosphate kinase	2.7.4.6	sce00230 Purine metabolism	R01137
-R02326	0	YKL067W	nucleoside diphosphate kinase	2.7.4.6	sce00240 Pyrimidine metabolism	R02326
-R01857	0	YKL067W	nucleoside diphosphate kinase	2.7.4.6	sce00230 Purine metabolism	R01857
-R02093	0	YKL067W	nucleoside diphosphate kinase	2.7.4.6	sce00240 Pyrimidine metabolism	R02093
-R00330	0	YKL067W	nucleoside diphosphate kinase	2.7.4.6	sce00230 Purine metabolism	R00330
-R02331	0	YKL067W	nucleoside diphosphate kinase	2.7.4.6	sce00240 Pyrimidine metabolism	R02331
-R00156	0	YKL067W	nucleoside diphosphate kinase	2.7.4.6	sce00240 Pyrimidine metabolism	R00156
-R00127	0	YDR226W	adenylate kinase	2.7.4.3	"sce00230 Purine metabolism;sce00730 Thiamine metabolism;sce01110 Biosynthesis of secondary metabolites;sce01130 Biosynthesis of antibiotics"	R00127
-R02480	1	( YAL039C or YKL087C )	Cytochrome c apocytochrome-c-lyase	4.4.1.17	sce00860 Porphyrin and chlorophyll metabolism	R02480
-R00196	0	( YEL039C and YML054C ) or ( YJR048W and YML054C )	(S)-Lactate:ferricytochrome-c 2-oxidoreductase	1.1.2.3	sce00620 Pyruvate metabolism	R00196
-R08657	0	YIL155C	glycerol-3-phosphate dehydrogenase (fad)	1.1.5.3	"sce00564 Glycerophospholipid metabolism;sce01110 Biosynthesis of secondary metabolites"	R08657
 r_4152	1	( YAL039C or YKL087C or YOR037W )	Cytochrome c apocytochrome-c-lyase	4.4.1.17	sce00860 Porphyrin and chlorophyll metabolism	R02480
 r_0004	0	( YEL039C and YML054C ) or ( YJR048W and YML054C )	(S)-Lactate:ferricytochrome-c 2-oxidoreductase	1.1.2.3	sce00620 Pyruvate metabolism	R00196
 r_0490	0	YIL155C	glycerol-3-phosphate dehydrogenase (fad)	1.1.5.3	"sce00564 Glycerophospholipid metabolism;sce01110 Biosynthesis of secondary metabolites"	R08657
@@ -25,11 +13,8 @@ MNXR98895	1		pyruvate passive transport
 MNXR102090	1		O2 diffusion			
 MNXR100765	1		H+ diffusion			
 (R)-lactate passive transport	1		(R)-lactate passive transport			
-ADP passive transport	1		ADP passive transport			
-ATP passive transport	1		ATP passive transport			
 MNXR100999	1		(S)-lactate passive transport			
 ubiquinol-6 transport	0		ubiquinol-6 transport			 
-CTP passive diffusion	1		CTP passive diffusion			 
 MNXR100308	1		glycerol 3-phosphate passive transport			
 MNXR97366	1		dihydroxyacetone phosphate passive transport			 
 MNXR102089	1		superoxide diffusion			
