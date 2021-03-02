@@ -12,7 +12,7 @@ function saveMitoYeastModel(model,version)
 model.S = full(model.S);
 % change model ID, description and name
 model.description = 'mitoYeastGEM.xml';
-model.modelName   = 'yeastGEM with expanded mitochondrial compartments';
+model.modelName   = 'yeastGEM with expanded mitochondrial metabolism';
 model.modelID     = ['mitoYeastGEM_v' version];
 model.grRules = creategrRulesField(model); 
 grRules = model.grRules; % used when creating txt file for model
@@ -22,9 +22,9 @@ model = rmfield(model,'grRules');
 
 
 % Update SBO terms in model
-cd ../../yeast-GEM/ComplementaryScripts/missingFields/
+cd ../../../yeast-GEM/ComplementaryScripts/missingFields/
 model = addSBOterms(model);
-cd ../../../mitoYeast-GEM/ComplementaryScripts/
+cd ../../../mitoYeast-GEM/mitoYeast/ComplementaryScripts/
 
 % check if model is a valid SBML structure
 writeCbModel(model,'sbml','tempModel.xml');

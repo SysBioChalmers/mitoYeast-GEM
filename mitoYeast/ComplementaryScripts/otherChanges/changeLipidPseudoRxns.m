@@ -8,15 +8,15 @@ function model = changeLipidPseudoRxns(model)
 model_old = model;
 
 % read data from Ejsing et al. 2009
-cd ../../../SLIMEr/data
+cd ../../../../SLIMEr/data
 data = readEjsingData(1);
-cd ../../mitoYeast-GEM/ComplementaryScripts/otherChanges/
+cd ../../mitoYeast-GEM/mitoYeast/ComplementaryScripts/otherChanges/
 data = convertEjsingData(data,model,true);
 lipidData = data.lipidData;
 chainData = data.chainData;
 %read data from Lahtvee et al. 2017 - to be used for ergosterol ester (SE) 
 %and free fatty acids (FFA)
-cd ../../../SLIMEr/data/
+cd ../../../../SLIMEr/data/
 LahtveeData = readLahtveeData(1);
 lipidDataLahtvee = LahtveeData.lipidData;
 chainDataLahtvee = LahtveeData.chainData;
@@ -120,7 +120,7 @@ if isfield(model,'grRules')
 end
 
 % Read file with biomass composition data
-cd ../../mitoYeast-GEM/ComplementaryData/Physiology/
+cd ../../mitoYeast-GEM/mitoYeast/ComplementaryData/Physiology/
 
 fid = fopen('biomassComponents.tsv');
 bd  = textscan(fid,'%s %s %s %s %s','Delimiter','\t','HeaderLines',1);
@@ -263,7 +263,7 @@ growthRate_2 = sol_2.x(strcmp(model.rxnNames,'growth'));
 qs_2         = sol_2.x(strcmp(model.rxnNames,'D-glucose exchange'))/1000*180;
 disp(['Biomass yield for model with altered lipid pseudoreactions: ' num2str(-growthRate_2/qs_2) ' gDW/g(glucose)'])
 
-cd ../../../mitoYeast-GEM/ComplementaryScripts/
+cd ../
 end
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

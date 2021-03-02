@@ -12,7 +12,7 @@ current_dir = pwd;
 %Map each lipid to corresponding positions in the model:
 MWs        = zeros(size(data_old.metNames));
 backbones  = cell(size(data_old.metNames));
-cd ../../../SLIMEr/data
+cd ../../../../SLIMEr/data
 for i = 1:length(data_old.metNames)
     pos = matchToModel(model,data_old.metNames{i});
     if sum(pos) > 0

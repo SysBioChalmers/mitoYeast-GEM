@@ -35,7 +35,7 @@ function exchange = unusedLipid(k,model,data,scaling)
 model = adjustModel(model,k,false,scaling);
 
 %Optimize model:
-cd ../../../SLIMEr/simulations
+cd ../../../../SLIMEr/simulations
 try
     [sol,~] = simulateGrowth(model,data.fluxData);
 catch
@@ -48,7 +48,7 @@ exchange_backs = sol.x(strcmp(model.rxnNames,'lipid backbone exchange'));
 exchange       = exchange_tails + exchange_backs;
 
 disp(['Scaling abundance data: k = ' num2str(k) ' -> exchange = ' num2str(exchange)])
-cd ../../mitoYeast-GEM/ComplementaryScripts/otherChanges/
+cd ../../mitoYeast-GEM/mitoYeast/ComplementaryScripts/otherChanges/
 end
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -59,7 +59,7 @@ function k = minScaling(k,model,data,scaling,kOpt)
 model = adjustModel(model,k,true,scaling);
 
 %Optimize model:
-cd ../../../SLIMEr/simulations/
+cd ../../../../SLIMEr/simulations/
 try
     [sol,~] = simulateGrowth(model,data.fluxData);
     posNGAM = strcmp(model.rxnNames,'non-growth associated maintenance reaction');
@@ -68,7 +68,7 @@ catch
     disp(['Finding scaling range: k = ' num2str(k) ' -> Maintenance = ' num2str(0)])
     k = kOpt;  %any unfeasible simulation returns the original value
 end
-cd ../../mitoYeast-GEM/ComplementaryScripts/otherChanges/
+cd ../../mitoYeast-GEM/mitoYeast/ComplementaryScripts/otherChanges/
 end
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

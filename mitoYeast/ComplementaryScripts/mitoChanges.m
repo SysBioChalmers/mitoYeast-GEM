@@ -14,12 +14,12 @@
 % Initialize COBRA toolbox and load model
 initCobraToolbox()
 
-cd ../../yeast-GEM/ModelFiles/xml/
+cd ../../../yeast-GEM/ModelFiles/xml/
 model = readCbModel('yeastGEM.xml');
 model = buildRxnGeneMat(model);
 
 % Change the lipid pseudoreaction to include additional lipid species
-cd ../../../mitoYeast-GEM/ComplementaryScripts/otherChanges/
+cd ../../../mitoYeast-GEM/mitoYeast/ComplementaryScripts/otherChanges/
 model = changeLipidPseudoRxns(model);
 
 % Add new mitochondrial reactions
