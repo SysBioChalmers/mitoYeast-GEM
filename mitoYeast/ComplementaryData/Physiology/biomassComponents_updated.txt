@@ -1,0 +1,84 @@
+model_id	name	abundance_mmol/gDW	MW_g/mol	group
+s_0404[c]	L-alanine	0.527012401964609	89.09	protein
+s_0428[c]	L-arginine	0.184592178971158	174.2	protein
+s_0430[c]	L-asparagine	0.116820320233205	132.12	protein
+s_0432[c]	L-aspartate	0.341731040134025	133.11	protein
+s_0542[c]	L-cysteine	0.00758125964441183	121.16	protein
+s_0747[c]	L-glutamine	0.121070423838014	146.14	protein
+s_0748[c]	L-glutamte	0.346670343714861	147.13	protein
+s_0757[c]	L-glycine	0.33357542435412	75.07	protein
+s_0832[c]	L-histidine	0.0761571964321321	155.15	protein
+s_0847[c]	L-isoleucine	0.221349807713738	131.17	protein
+s_1077[c]	L-leucine	0.340467492580805	131.17	protein
+s_1099[c]	L-lysine	0.328750973172121	146.19	protein
+s_1148[c]	L-methionine	0.0582378601225956	149.21	protein
+s_1314[c]	L-phenylalanine	0.15380767944836	165.19	protein
+s_1379[c]	L-proline	0.189186891122282	115.13	protein
+s_1428[c]	L-serine	0.212964470019559	105.09	protein
+s_1491[c]	L-threonine	0.219856538246244	119.12	protein
+s_1527[c]	L-tryptophan	0.0326223903740585	204.23	protein
+s_1533[c]	L-tyrosine	0.117164920221219	181.19	protein
+s_1561[c]	L-valine	0.303939602869103	117.15	protein
+s_0001[ce]	(1->3)-beta-D-glucan	0.748514964334505	180.16	carbohydrate
+s_0004[ce]	(1->6)-beta-D-glucan	0.25009165448919	180.16	carbohydrate
+s_0773[c]	glycogen	0.361414527575564	180.16	carbohydrate
+s_1107[c]	mannan	0.710939625370425	180.16	carbohydrate
+s_1520[c]	trehalose	0.138275712087142	342.296	carbohydrate
+s_0423[c]	AMP	0.0445348319234424	347.22	RNA
+s_0526[c]	CMP	0.043276239184487	323.2	RNA
+s_0782[c]	GMP	0.0445348319234424	363.22	RNA
+s_1545[c]	UMP	0.0579920969091588	324.18	RNA
+s_0584[c]	dAMP 	0.00359999993816018	331.22	DNA
+s_0589[c]	dCMP 	0.00240000011399388	307.2	DNA
+s_0615[c]	dGMP 	0.00240000011399388	345.21	DNA
+s_0649[c]	dTMP 	0.00359999993816018	322.21	DNA
+s_0924[c]	iron(2+) 	3.04000004689442e-05	55.84	ion
+s_1373[c]	potassium 	0.00362999993376434	39.1	ion
+s_1437[c]	sodium 	0.003969999961555	22.99	ion
+s_1467[c]	sulphate 	0.0199999995529652	96.06	ion
+s_3778[c]	chloride 	0.00129000004380941	35.45	ion
+s_3801[c]	Mn(2+) 	0.00273000006563962	54.94	ion
+s_3822[c]	Zn(2+) 	0.000747999991290271	65.39	ion
+s_3880[c]	Ca(2+) 	0.000216999993426725	40.08	ion
+s_4013[c]	Mg(2+) 	0.0012425429886207	24.3	ion
+s_4019[c]	Cu2(+) 	0.000659000012092292	63.55	ion
+s_0529[c]	coenzyme A 	0.000190000006114133	767.5341	cofactor
+s_0687[c]	FAD 	9.99999974737875e-06	785.5497	cofactor
+s_1198[c]	NAD 	0.00264999992214143	662.43	cofactor
+s_1203[c]	NADH 	0.000150000007124618	663.43	cofactor
+s_1207[c]	NADP(+) 	0.000569999974686652	744.4129	cofactor
+s_1212[c]	NADPH 	0.00270000007003546	745.4209	cofactor
+s_1405[c]	riboflavin 	0.000989999971352518	376.36	cofactor
+s_1475[c]	TDP 	1.20000004244503e-06	425.3144	cofactor
+s_1487[c]	THF 	6.34000025456771e-05	445.4292	cofactor
+s_3714[c]	heme a 	9.99999997475243e-07	852.83	prosthetic group
+s_0712[m]	ferroheme b	5.39384e-05 	616.4873	prosthetic group
+s_1430[c]	siroheme	4.05985e-07	916.661	prosthetic group
+s_4224[m]	[2Fe-2S] iron-sulfur cluster	1.67674e-05	175.82200	prosthetic group
+s_4228[m]	[4Fe-4S] iron-sulfur cluster	3.3969e-05	351.64400	prosthetic group
+s_4229[m]	[3Fe-4S] iron-sulfur cluster	4.73631e-06	295.79900	prosthetic group
+s_4230[c]	[2Fe-2S] iron-sulfur cluster 	1.93151e-06	175.82200	prosthetic group
+s_4231[c]	[4Fe-4S] iron-sulfur cluster	1.7835e-05	351.64400	prosthetic group
+s_4241[m]	lipoate (protein bound)	1.07766e-05	316.48300	prosthetic group
+s_4243[c]	biotin (protein bound)	1.68356e-05	354.46800	prosthetic group
+s_1535[m]	ubiquinol-6	0.00034735	592.905	cofactor
+s_0957[m]	L-alanine	0.00279617	89.09	protein
+s_0967[m]	L-arginine	0.00093917	174.2	protein
+s_0971[m]	L-asparagine	0.00443971	132.12	protein
+s_0975[m]	L-aspartate	0.00117396	133.11	protein
+s_3785[m]	L-cysteine	0.000298827	121.16	protein
+s_3755[m]	L-glutamine	0.00093917	146.14	protein
+s_0933[m]	L-glutamte	0.000875136	147.13	protein
+s_1005[m]	L-glycine	0.00292423	75.07	protein
+s_1008[m]	L-histidine	0.001238	155.15	protein
+s_1018[m]	L-isoleucine	0.00473854	131.17	protein
+s_1023[m]	L-leucine	0.00612595	131.17	protein
+s_1027[m]	L-lysine	0.00155817	146.19	protein
+s_1031[m]	L-methionine	0.00234793	149.21	protein
+s_1034[m]	L-phenylalanine	0.00315903	165.19	protein
+s_1037[m]	L-proline	0.00183565	115.13	protein
+s_1042[m]	L-serine	0.00303096	105.09	protein
+s_1047[m]	L-threonine	0.00254003	119.12	protein
+s_1050[m]	L-tryptophan	0.000832446	204.23	protein
+s_1053[m]	L-tyrosine	0.00249734	181.19	protein
+s_1058[m]	L-valine	0.00309499	117.15	protein
