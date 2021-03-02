@@ -111,12 +111,17 @@ fclose(fid);
 % Add new reactions to model
 cd ../../ComplementaryScripts/otherChanges/
 for i = 1:length(newRxn.ID)
-    newID = getNewIndex(model.rxns);
+    if sum(strcmp(model.rxns,newRxn.ID{i})) > 0
+        ID = newRxn.ID{i};
+    else
+        newID = getNewIndex(model.rxns);
+        ID    = ['r_' newID];
+    end
     rxnInd = find(strcmp(info.rxnIDs,newRxn.ID{i}));
     met = info.mets(rxnInd);
     Coeff = transpose(info.metCoeff(rxnInd));
     model = addReaction(model, ...
-                        ['r_' newID], ...
+                        ID, ...
                         'reactionName', newRxn.ID{i}, ...
                         'metaboliteList',met, ...
                         'stoichCoeffList', Coeff, ...
@@ -127,7 +132,7 @@ end
 
 % Add reaction annotation
 for i = 1:length(newRxn.ID)
-    [~,rxnID] = ismember(newRxn.ID(i),model.rxnNames); % CHECK if it should
+    [~,rxnID] = ismember(newRxn.rxnNames(i),model.rxnNames); % CHECK if it should
     % really be newRxn.ID(i) or if it should be newRxn.rxnNames
     if rxnID ~= 0
         model.rxnNames{rxnID} = newRxn.rxnNames{i};
