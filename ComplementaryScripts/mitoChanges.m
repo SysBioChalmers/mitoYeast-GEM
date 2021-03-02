@@ -46,6 +46,19 @@ model = addIMScomp(model);
 % update compartment of metabolites in IMS reactions
 cd modelCuration/
 model = correctMetLocalization(model);
+
+cd modelCuration/
+% Remove incorrect reactions
+[model,notFound,growthRate] = removeIncorrectRxns(model);
+
+% Move reactions to correct compartment
+% This includes adding the mitochondrial outer membrane compartment
+model = moveReactions(model);
+
+cd ../otherChanges/
+% Represent the proton motive force (PMF) in model
+[model,energy,redox,growthRate] = addPMFcostToRxns(model);
+
 %%
 % Save model
 saveMitoYeastModel(model,'1.0.0');
