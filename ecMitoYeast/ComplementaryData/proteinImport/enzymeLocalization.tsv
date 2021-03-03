@@ -1,0 +1,286 @@
+UniProt ID	Primary Identifier	gene_symbol	Localization	Translocation pathway	Transit peptide length UniProt	Cleavage site MPP MitoFates	Cleavage site OCT1 MitoFates	Cleavage site ICP55 MitoFates	Notes
+Q01802	YKL106W	AAT1	M	TIM23-PAM		14			Peripheral membrane protein on the matrix side, assigned to matrix
+P32316	YBL015W	ACH1	M	TIM23-PAM		94			
+P19414	YLR304C	ACO1	M	TIM23-PAM	16	15		16	Mainly mitochondrial. 94:6 ratio between mitochondrion:cytoplasm
+P39533	YJL200C	ACO2	M	TIM23-PAM	14	13		14	
+P32463	YKL192C	ACP1	M	TIM23-PAM	36	35		36	
+Q01574	YAL054C	ACS1	IM	TIM23-OXA		53			"Mitochondrial inner membrane localized according to PMID:28819139. Assumed to use ""stop-transfer"" mechanism"
+P07246	YMR083W	ADH3	M	TIM23-PAM	27	24			
+P10127	YGL256W	ADH4	M	TIM23-PAM		52			
+P07170	YDR226W	ADK1	IMS	IMS unknown		30			10 % localized to IMS
+P26364	YER170W	ADK2	M	TIM23-PAM		34			No submitochondrial localization evidence, assigned to matrix and TIM23-PAM pathway. PMID:1620094
+P39965	YER087W	AIM10	M	TIM23-PAM		56			
+P47051	YJL046W	AIM22	M	TIM23-PAM		33			Peripheral membrane protein on the matrix side, assigned to matrix
+P40825	YOR335C	ALA1	M	TIM23-PAM	24	24			
+P46367	YOR374W	ALD4	M	TIM23-PAM	24	23		24	
+P40047	YER073W	ALD5	M	TIM23-PAM	23	22		23	
+P54783	YML086C	ALO1	OM	OM unknown		26			
+P52893	YLR089C	ALT1	M	TIM23-PAM		27	35		
+P40360	YJL071W	ARG2	M	TIM23-PAM	13	35			Peripheral membrane protein on the matrix side, assigned to matrix
+Q01217	YER069W	ARG5,6	M	TIM23-PAM	65	57			Peripheral membrane protein on the matrix side, assigned to matrix
+Q04728	YMR062C	ARG7	M	TIM23-PAM	8	89			
+P18544	YOL140W	ARG8	M	TIM23-PAM		14			
+P48360	YDR376W	ARH1	M	TIM23-PAM		8			Assumed to be localized to the matrix, assigned tom TIM23-PAM pathway
+P07251	YBL099W	ATP1	IM	TIM23-PAM	35	35			Peripheral membrane protein on the matrix side. Assigned to IM in model to have consistent localization of the complex.
+P18496	YLR393W	ATP10	IM	TIM23-PAM		8			Peripheral membrane protein on the matrix side, assigned to TIM23-PAM pathway. Assigned to IM in model to have consistent localization of the complex.
+P32453	YNL315C	ATP11	M	TIM23-PAM	40	34	42		Assumed to use TIM23-PAM pathway. Chaperone required for assembly of alpha and beta subunitsinto the F1 sector
+P22135	YJL180C	ATP12	M	TIM23-PAM	32	22		23	Peripheral membrane protein on the matrix side, assigned to TIM23-PAM pathway. Assembly factor for ATP synthase
+Q12349	YLR295C	ATP14	IM	TIM23-PAM	32	24	32		Assumed to use TIM23-PAM pathway. Part of the central stalk of ATP synthase. Assigned to IM in model to have consistent localization of the complex. PMID:22864911
+P21306	YPL271W	ATP15	IM	TIM23-PAM		24			Assumed to use TIM23-PAM pathway. Part of the central stalk of ATP synthase. Assigned to IM in model to have consistent localization of the complex. PMID:22864911
+Q12165	YDL004W	ATP16	IM	TIM23-PAM	22	21		22	Assumed to use TIM23-PAM pathway. Part of the central stalk of ATP synthase. Assigned to IM in model to have consistent localization of the complex. PMID:22864911
+Q06405	YDR377W	ATP17	IM	TIM23-IM	6	6			
+P81450	YML081C-A	ATP18	IM	TIM23-OXA		49			"Most likely uses ""conservative sorting"" (TIM23-OXA) pathway based on transmembrane segment sequence"
+P81451	YOL077W-A	ATP19	IM	TIM23-OXA		6			"Most likely uses ""conservative sorting"" (TIM23-OXA) pathway based on transmembrane segment sequence"
+P00830	YJR121W	ATP2	IM	TIM23-PAM	33	32			Peripheral membrane protein on the matrix side. Assigned to IM in model to have consistent localization of the complex.
+Q12233	YPR020W	ATP20	IM	TIM23-IM		5			"Assumed to use ""stop-transfer"" mechanism. Small integral membrane subunit predicted to contain a singe transmembrane domain. PMID:22864911"
+P38077	YBR039W	ATP3	IM	TIM23-PAM	33	32		33	Peripheral membrane protein on the matrix side. Assigned to IM in model to have consistent localization of the complex.
+P05626	YPL078C	ATP4	IM	TIM23-IM	35	35	43		"Assumed to use ""stop-transfer"" mechanism"
+P09457	YDR298C	ATP5	IM	TIM23-PAM	17	16			Peripheral membrane protein on the matrix side. Assigned to IM in model to have consistent localization of the complex.
+P00854	Q0085	ATP6	IM	OXA		68			Encoded by mitochondrial genome, co-translationally inserted into the membrane by OXA
+P30902	YKL016C	ATP7	IM	TIM23-PAM		22			Assumed to use TIM23-PAM pathway. Part of the peripheral stalk of ATP synthase. Assigned to IM in model to have consistent localization of the complex. PMID:22864911
+P00856	Q0080	ATP8	IM	OXA		38			Encoded by mitochondrial genome, co-translationally inserted into the membrane by OXA
+P38891	YHR208W	BAT1	M	TIM23-PAM	16	16		17	
+P32451	YGR286C	BIO2	M	TIM23-PAM	16	8		9	
+P47039	YJL060W	BNA3	M	TIM23-PAM		8		9	
+P38169	YBL098W	BNA4	OM	MIM1		39			Predicted to contain 3 transmembrane domains, assumed to require MIM1
+Q03941	YDR196C	CAB5	OM	MIM1		20			Outer membrane localized according to PMID:28819139. Predicted to contain 2 transmembrane helices
+P32796	YML042W	CAT2	M	TIM23-PAM		22			
+P41735	YOR125C	CAT5	M	TIM23-PAM	15	14		15	Peripheral membrane protein on the matrix side, assigned to matrix
+P00431	YKR066C	CCP1	IMS	TIM23-IMS	67	44			"Imported by ""stop-transfer"" mechanism, followed by proteolytic cleavage causing mature protein to be released into the IMS. PMID:22172993"
+P39525	YER061C	CEM1	M	TIM23-PAM		19		20	
+P25379	YCL064C	CHA1	M	TIM23-PAM		40			Peripheral membrane protein on the matrix side, assigned to matrix
+P00890	YNR001C	CIT1	M	TIM23-PAM	37	36		37	
+P43635	YPR001W	CIT3	M	TIM23-PAM	23	15	23		
+P53264	YGR110W	CLD1	M	TIM23-PAM	39	22			Peripheral membrane protein on the matrix side, assigned to matrix
+P00163	Q0105	COB	IM	OXA		80			Encoded by mitochondrial genome, co-translationally inserted into the membrane by OXA
+P18900	YBR003W	COQ1	M	TIM23-PAM		21			Peripheral membrane protein on the matrix side, assigned to matrix
+P32378	YNR041C	COQ2	IM	TIM23-OXA	42	34			"Most likely a combination ""stop-transfer"" mechanism and OXA1 import pathway. PMID:27166948"
+P27680	YOL096C	COQ3	M	TIM23-PAM	32	31			Peripheral membrane protein on the matrix side, assigned to matrix
+O13525	YDR204W	COQ4	M	TIM23-PAM	10	21			Peripheral membrane protein on the matrix side, assigned to matrix
+P49017	YML110C	COQ5	M	TIM23-PAM	19	22	30		
+P53318	YGR255C	COQ6	M	TIM23-PAM	17	16		17	Peripheral membrane protein on the matrix side, assigned to matrix
+P27697	YGL119W	COQ8	M	TIM23-PAM	29	14	22		Peripheral membrane protein on the matrix side, assigned to matrix
+Q05779	YLR201C	COQ9	M	TIM23-PAM		16			Assumed to use TIM23-PAM pathway. Peripheral membrane protein on matrix side. PMID:28819139
+P07256	YBL045C	COR1	IM	TIM23-PAM	26	17		18	Peripheral membrane protein on the matrix side. Assigned to IM in model to have consistent localization of the complex.
+P00401	Q0045	COX1	IM	OXA		38			Encoded by mitochondrial genome, co-translationally inserted into the membrane by OXA
+P21592	YPL172C	COX10	IM	TIM23-OXA	30	45			"Most likely a combination ""stop-transfer"" mechanism and OXA1 import pathway based on transmembrane sequences"
+P19516	YPL132W	COX11	IM	TIM23-OXA		44		45	"Most likely uses ""conservative sorting"" (TIM23-OXA) pathway based on transmembrane segment sequence"
+Q01519	YLR038C	COX12	IM	MIA40-ERV1		72			Peripheral membrane protein on the intermembrane space side. Assigned to IM in model to have consistent localization of the complex. Assumed to use the desulfide relay system based on containigna twin CX9C-motif
+P32799	YGL191W	COX13	IM	TIM23-OXA	9	9			"Assumed to use ""stop-transfer"" mechanism"
+P40086	YER141W	COX15	IM	TIM23-OXA		33			"Most likely a combination ""stop-transfer"" mechanism and OXA1 import pathway. PMID:27166948"
+P47081	YJL003W	COX16	IM	TIM23-OXA		12			"Most likely a combination ""stop-transfer"" mechanism and OXA1 import pathway based on transmembrane sequences"
+P53239	YGR062C	COX18	IM	TIM23-OXA		34		35	Uses the TIM23-OXA import pathway. PMID:16157698
+Q3E731	YLL018C-A	COX19	IMS	MIA40-ERV1		54		55	Intermembrane space localized according to PMID:22984289. Contains twin cysteine-x9-cysteine motifs, assumed to use Mia40-Erv1 pathway
+P00410	Q0250	COX2	IM	OXA		7			Encoded by mitochondrial genome, co-translationally inserted into the membrane by OXA
+Q04935	YDR231C	COX20	IM	TIM23-IM		28		29	"Most likely a combination ""stop-transfer"" mechanism and OXA1 import pathway based on transmembrane sequences"
+P38824	YHR116W	COX23	IMS	MIA40-ERV1	10	54		55	Intermembrane space localized according to PMID:22984289. Contains twin cysteine-x9-cysteine motifs, assumed to use Mia40-Erv1 pathway
+P00420	Q0275	COX3	IM	OXA		7			Encoded by mitochondrial genome, co-translationally inserted into the membrane by OXA
+P04037	YGL187C	COX4	IM	TIM23-PAM	25	17	25		Peripheral membrane protein on the matrix side. Assigned to IM in model to have consistent localization of the complex.
+P00424	YNL052W	COX5A	IM	TIM23-IM	20	20			"Assumed to use ""stop-transfer"" mechanism. PMID:16157698"
+P00425	YIL111W	COX5B	IM	TIM23-IM	17	17			"Assumed to use ""stop-transfer"" mechanism. PMID:16157698"
+P00427	YHR051W	COX6	IM	TIM23-PAM	40	39		40	Peripheral membrane protein on the matrix side. Assigned to IM in model to have consistent localization of the complex.
+P10174	YMR256C	COX7	IM	TIM23-OXA		23			"Most likely uses ""conservative sorting"" (TIM23-OXA) pathway based on transmembrane segment sequence"
+P04039	YLR395C	COX8	IM	TIM23-OXA	27	27			"Assumed to use ""stop-transfer"" mechanism. PMID:6327685"
+P07255	YDL067C	COX9	IM	TIM23-IM		13			"Most likely uses ""stop-transfer"" pathway based on transmembrane segment sequence"
+Q07560	YDL142C	CRD1	IM	TIM23-OXA		52		53	"Most likely a combination ""stop-transfer"" mechanism and OXA1 import pathway based on transmembrane sequences"
+P00175	YML054C	CYB2	IMS	TIM23-IMS	80	31			"Imported by the ""stop-transfer"" mechanism, followed by release into IMS upon clevage by the inner membrane peptidase (IMP)"
+P00044	YJR048W	CYC1	IMS	TIM23-IMS		45			Assumed to be imported in a similar way as CYB2
+P06182	YAL039C	CYC3	IMS	IMS unknown		78			
+P00045	YEL039C	CYC7	IMS	IMS unknown		49			
+P07143	YOR065W	CYT1	IM	TIM23-IM	61	13		14	"Assumed to use ""stop-transfer"" mechanism. Cleaved by IMP to form mature protein. PMID:22172993"
+Q00873	YKL087C	CYT2	IM	TIM23-IM		65			"Assumed to use ""stop-transfer"" mechanism"
+P07807	YOR236W	DFR1	M	TIM23-PAM		40			Mitochondrial matrix localized according to PMID:28819139
+P38705	YHR011W	DIA4	M	TIM23-PAM		6	14		Peripheral inner membrane protein with probable role as serine-tRNA ligase, asigned to the matrix and the TIM23-PAM pathway.
+P32891	YDL174C	DLD1	IM	TIM23-OXA		29			"Assumed to use ""stop-transfer"" mechanism"
+P46681	YDL178W	DLD2	M	TIM23-PAM		20			
+P54861	YLL001W	DNM1	OM	OM unknown		65			
+P43616	YFR044C	DUG1	M	TIM23-PAM		40			
+P38122	YBR176W	ECM31	M	TIM23-PAM		15	23		
+P28817	YDR036C	EHD3	M	TIM23-PAM		23	31		
+P38071	YBR026C	ETR1	M	TIM23-PAM	9	8	16		
+P40099	YER183C	FAU1	M	TIM23-PAM		36			Peripheral membrane protein on the matrix side, assigned to matrix
+P32785	YBL013W	FMT1	M	TIM23-PAM	26	18			Peripheral membrane protein on the matrix side, assigned to matrix
+P53848	YNL256W	FOL1	M	TIM23-PAM		13			Peripheral membrane protein on the matrix side, assigned to matrix
+Q12676	YMR113W	FOL3	M	TIM23-PAM		26			Inner membrane localized according to PMID:28819139. Peripheral membrane protein, assigned to matrx
+Q08908	YOR384W	FRE5	M	TIM23-PAM	19	28			Added to mitochondrion for modelling purposes
+P08417	YPL262W	FUM1	M	TIM23-PAM		24			Alternative translation start site renders protein cytoplasmic
+P48015	YDR019C	GCV1	M	TIM23-PAM		12			
+P49095	YMR189W	GCV2	M	TIM23-PAM		29			
+P39726	YAL044C	GCV3	M	TIM23-PAM	47	22			
+P33327	YDL215C	GDH2	M	TIM23-PAM		81			Peripheral inner membrane according to PMID:28819139. Assumed to localize to the matrix
+P38812	YHR100C	GEP4	M	TIM23-PAM		12			Peripheral membrane protein on the matrix side, assigned to matrix
+Q12320	YOR040W	GLO4	M	TIM23-PAM		10			Assumed to be localized to the matrix, assigned tom TIM23-PAM pathway
+P41921	YPL091W	GLR1	M	TIM23-PAM		16			Both mitochondrial and cytoplasmic
+P41911	YOL059W	GPD2	M	TIM23-PAM	16	25			Peripheral IM protein, assumed to be localized in the matrix, assigned to TIM23-PAM pathway
+P38143	YBR244W	GPX2	OM	OM unknown		81			Outer membrane localized according to PMID:28658629
+P38088	YBR121C	GRS1	M	TIM23-PAM	24	10		11	Peripheral membrane protein on the matrix side, assigned to matrix
+P17695	YDR513W	GRX2	M	TIM23-PAM	35	29		30	Exists as two isoforms, one mitochondrial and one cytosolic
+Q02784	YPL059W	GRX5	M	TIM23-PAM	29	11		12	
+P32191	YIL155C	GUT2	IM	TIM23-OXA		8			"Imported by the ""stop-transfer"" mechanism. Further processed by IMP to generate mature form (predicted to cleave between N37 and D38 PMID:15118906)"
+P09950	YDR232W	HEM1	M	TIM23-PAM	22	22			Peripheral membrane protein on the matrix side, assigned to matrix
+P40012	YER014W	HEM14	M	TIM23-PAM		76			Peripheral membrane protein on the matrix side, assigned to matrix
+P16622	YOR176W	HEM15	M	TIM23-PAM	31	23	31		Peripheral membrane protein on the matrix side, assigned to matrix
+Q03557	YMR293C	HER2	M	TIM23-PAM		14			
+P32874	YMR207C	HFA1	M	TIM23-PAM	104	15			Involved in mitochondrial fatty acid synthesis, assigned to matrix
+Q04458	YMR110C	HFD1	OM	OM unknown		26			
+P38790	YHR067W	HTD2	M	TIM23-PAM		17			Involved in mitochondrial fatty acid synthesis, assigned to matrix
+P07263	YPR033C	HTS1	M	TIM23-PAM	20	21			Peripheral membrane protein on the matrix side, assigned to matrix
+P40581	YIR037W	HYR1	IMS	IMS unknown		52			Intermembrane space localized according to PMID:22984289
+P47158	YJR122W	IBA57	M	TIM23-PAM	27	27			Peripheral membrane protein on the matrix side, assigned to matrix
+Q12031	YPR006C	ICL2	M	TIM23-PAM		32			
+P28834	YNL037C	IDH1	M	TIM23-PAM	11	10		11	
+P28241	YOR136W	IDH2	M	TIM23-PAM	15	14		15	
+P21954	YDL066W	IDP1	M	TIM23-PAM	16	8	16		
+P00927	YER086W	ILV1	M	TIM23-PAM		30			
+P07342	YMR108W	ILV2	M	TIM23-PAM	90	36	44		
+P39522	YJR016C	ILV3	M	TIM23-PAM		12	20		
+P06168	YLR355C	ILV5	M	TIM23-PAM	47	21		22	
+P25605	YCL009C	ILV6	M	TIM23-PAM	24	24			
+Q07821	YLL027W	ISA1	M	TIM23-PAM		17		18	Peripheral membrane protein on the matrix side, assigned to matrix
+Q12425	YPR067W	ISA2	M	TIM23-PAM		15			
+P40015	YER019W	ISC1	OM	MIM1		62			Most likely localized to outer membrane. PMID:17880915. Predicted to contain multiple membrane-spanning domains
+Q6Q560	YER048W-A	ISD11	M	TIM23-PAM		11			
+P48526	YPL040C	ISM1	M	TIM23-PAM		19		20	Peripheral membrane protein on the matrix side, assigned to matrix
+Q03020	YPL135W	ISU1	M	TIM23-PAM	27	34			
+Q12056	YOR226C	ISU2	M	TIM23-PAM	26	26			
+P20967	YIL125W	KGD1	M	TIM23-PAM	30	35		36	
+P19262	YDR148C	KGD2	M	TIM23-PAM		32			
+P12695	YNL071W	LAT1	M	TIM23-PAM	28	27		28	
+P06208	YNL104C	LEU4	M	TIM23-PAM		17			
+Q12166	YOR108W	LEU9	M	TIM23-PAM	50	62		63	
+Q06005	YLR239C	LIP2	M	TIM23-PAM		18			Peripheral membrane protein on the matrix side, assigned to matrix
+P32875	YOR196C	LIP5	M	TIM23-PAM	18	17	25		Peripheral membrane protein on the matrix side, assigned to matrix
+P09624	YFL018C	LPD1	M	TIM23-PAM	21	13	21		
+P53598	YOR142W	LSC1	M	TIM23-PAM	24	16			
+P53312	YGR244C	LSC2	M	TIM23-PAM	30	30		31	
+P40495	YIL094C	LYS12	M	TIM23-PAM	22	14		15	
+P49367	YDR234W	LYS4	M	TIM23-PAM	20	10	18		
+P36013	YKL029C	MAE1	M	TIM23-PAM		38		39	
+P36060	YKL150W	MCR1	OM	OM unknown		34			
+Q12283	YOR221C	MCT1	M	TIM23-PAM	24	24			Peripheral membrane protein on the matrix side, assigned to matrix
+P53206	YGR012W	MCY1	OM	OM unknown		16			
+P17505	YKL085W	MDH1	M	TIM23-PAM	17	9	17		
+Q08645	YOR241W	MET7	M	TIM23-PAM		29			Peripheral membrane protein on the matrix side, assigned to matrix
+P39731	YBR084W	MIS1	M	TIM23-PAM		24			
+P15179	YPL104W	MSD1	M	TIM23-PAM		15		16	
+P48525	YOL033W	MSE1	M	TIM23-PAM		10		11	Peripheral membrane protein on the matrix side, assigned to matrix
+P08425	YPR047W	MSF1	M	TIM23-PAM	17	16		17	
+P32048	YNL073W	MSK1	M	TIM23-PAM	30	28		29	
+P22438	YGR171C	MSM1	M	TIM23-PAM		10		11	Peripheral membrane protein on the matrix side, assigned to matrix
+P38714	YHR091C	MSR1	M	TIM23-PAM		50			Peripheral membrane protein on the matrix side, assigned to matrix
+P07236	YKL194C	MST1	M	TIM23-PAM	45	19	27		Peripheral membrane protein on the matrix side, assigned to matrix
+P04803	YDR268W	MSW1	M	TIM23-PAM		15			Peripheral membrane protein on the matrix side, assigned to matrix
+P48527	YPL097W	MSY1	M	TIM23-PAM		36		37	Peripheral membrane protein on the matrix side, assigned to matrix
+P11325	YLR382C	NAM2	M	TIM23-PAM	9	9		10	Peripheral membrane protein on the matrix side, assigned to matrix
+P37293	YGR147C	NAT2	IM	TIM23-OXA		36			"Integral inner membrane protein according to PMID: 28819139;28658629"
+P53615	YNL036W	NCE103	IMS	IMS unknown		62			Intermembrane space localized according to PMID:22984289
+P40215	YMR145C	NDE1	IM	TIM23-OXA	41	17			
+Q07500	YDL085W	NDE2	IM	TIM23-OXA	21	10			"Most likely a combination ""stop-transfer"" mechanism and OXA1 import pathway. PMID:27166948"
+P32340	YML120C	NDI1	IM	TIM23-OXA	26	22			
+P25374	YCL017C	NFS1	M	TIM23-PAM	33	33		34	
+P35731	YKL055C	OAR1	M	TIM23-PAM		44			Peripheral inner membrane protein on the matrix side involved in mitochondrial fatty acid synthesis, assigned to matrix. 
+P61829	Q0130	OLI1	IM	OXA		40			Encoded by mitochondrial genome, co-translationally inserted into the membrane by OXA
+P21375	YJR051W	OSM1	M	TIM23-PAM	32	24		25	
+P33751	YDR538W	PAD1	M	TIM23-PAM	58	28	36		Mitochondrially localized according to PMID:28658629. Assumed to be matrix localized, asigned to TIM23-PAM pathway
+P38787	YHR063C	PAN5	M	TIM23-PAM		58			Mitochondrial matrix localized according to PMID:28819139
+P16387	YER178W	PDA1	M	TIM23-PAM	32	32			
+P32473	YBR221C	PDB1	M	TIM23-PAM	33	33			
+Q12428	YPR002W	PDH1	M	TIM23-PAM		35			
+P16451	YGR193C	PDX1	M	TIM23-PAM	30	17		18	
+P38075	YBR035C	PDX3	IMS	IMS unknown		70			Intemembrane space localized according to PMID:28819139, 28658629 and 22984289
+P33893	YBL080C	PET112	M	TIM23-PAM		7		8	Peripheral membrane protein on the matrix side, assigned to matrix
+Q08959	YPL206C	PGC1	IM	TIM23-IM		9			
+P25578	YCL004W	PGS1	M	TIM23-PAM		29			Peripheral membrane protein on the matrix side, assigned to matrix
+Q06892	YPL188W	POS5	M	TIM23-PAM		16		17	
+P28239	YMR267W	PPA2	M	TIM23-PAM	30	31	41		
+Q12036	YPL148C	PPT2	M	TIM23-PAM		25			
+P34227	YBL064C	PRX1	M	TIM23-PAM	13	13			
+P39006	YNL169C	PSD1	IM	TIM23-IM	44	48			Predicted to contain a transmembrane domain, assigned to TIM23-IM pathway
+P53167	YGL063W	PUS2	M	TIM23-PAM		55			
+P09368	YLR142W	PUT1	M	TIM23-PAM		26			Peripheral membrane protein on the matrix side, assigned to matrix
+P07275	YHR037W	PUT2	M	TIM23-PAM		15		16	
+P37299	YHR001W-A	QCR10	IM	TIM23-BCS1		22		23	"Assumed to use ""conservative sorting"" pathway, based on the existence of a proline in the predicted transmembrane domain. PMID:16157698"
+P07257	YPR191W	QCR2	IM	TIM23-IM	16	16		17	"Imported by the ""stop-transfer"" mechanism"
+P00127	YFR033C	QCR6	IM	TIM23-PAM		83			Peripheral membrane protein on the matrix side. Assigned to IM in model to have consistent localization of the complex.
+P00128	YDR529C	QCR7	IM	TIM23-IM		72			"Assumed to use ""stop-transfer"" mechanism"
+P08525	YJL166W	QCR8	IM	TIM23-OXA		52			"Assumed to use ""stop-transfer"" mechanism based on containing a hydrophobic alpha-helix spanning the membrane. PMID:18501197"
+P22289	YGR183C	QCR9	IM	TIM23-IM		14			"Assumed to use ""stop-transfer"" mechanism"
+Q12305	YOR285W	RDL1	OM	OM unknown		33			
+Q08742	YOR286W	RDL2	M	TIM23-PAM	25	24		25	
+Q99258	YDR487C	RIB3	IMS	IMS unknown		50			Function of mitochondrial variant not related to main metabolic activity. PMID:12595523
+P50861	YOL143C	RIB4	IMS	IMS unknown		71			Intermembrane space localized according to PMID:22984289
+P08067	YEL024W	RIP1	IM	TIM23-BCS1	30	22	30		Protein is imported into matrix, incorporates an 2Fe-2S iron-sulfur cluster and is inserted in the IM by BCS1. PMID:22017868
+Q00711	YKL148C	SDH1	IM	TIM23-PAM	28	20	28		Peripheral membrane protein on the matrix side. Assigned to IM in model to have consistent localization of the complex.
+P21801	YLL041C	SDH2	IM	TIM23-PAM	20	33			Peripheral membrane protein on the matrix side. Assigned to IM in model to have consistent localization of the complex.
+P33421	YKL141W	SDH3	IM	TIM23-OXA	50	34			"Most likely a combination ""stop-transfer"" mechanism and OXA1 import pathway. PMID:27166948"
+P37298	YDR178W	SDH4	IM	TIM23-OXA	31	23	31		Pre-sequence, and transmembrane domain (TM) 1 and 2 imported into matrix and inserted in IM by OXA1, TM3 inserted by stop-transfer mechanism [PMID: 27166948]
+Q06236	YLR164W	SHH4	IM	TIM23-OXA	23	15	23		homologous to SDH4, therefore assumed to use the same pathway
+P37292	YBR263W	SHM1	M	TIM23-PAM	20	19			
+P25345	YCR024C	SLM5	M	TIM23-PAM		13		14	Peripheral membrane protein on the matrix side, assigned to matrix
+P00445	YJR104C	SOD1	IMS	IMS unknown		45			Only 1-5 % localized to IMS
+P00447	YHR008C	SOD2	M	TIM23-PAM	26	26			
+P53230	YGR046W	TAM41	M	TIM23-PAM	34	26		27	Peripheral membrane protein on the matrix side, assigned to matrix
+Q06510	YPR140W	TAZ1	IM	TIM23-IM		26		27	"Assumed to use ""stop-transfer"" mechanism based on sequence of TM"
+P54857	YDR058C	TGL2	M	TIM23-PAM		9			Peripheral inner membrane protein on the matrix side, assigned to the matrix
+P81449	YDR322C-A	TIM11	IM	TIM23-IM		22			"Assumed to use ""stop-transfer"" mechanism. Small integral membrane subunit predicted to contain a singe transmembrane domain. PMID:22864911"
+P29509	YDR353W	TRR1	IMS	IMS unknown		73			Intermembrane space localized according to PMID:22984289
+P38816	YHR106W	TRR2	M	TIM23-PAM	23	24			No submitochondrial localization evidence, assigned to matrix and TIM23-PAM pathway
+P22217	YLR043C	TRX1	IMS	IMS unknown		11			Intemembrane space localized according to PMID:28819139, 28658629 and 22984289
+P25372	YCR083W	TRX3	M	TIM23-PAM	21	20			
+Q08686	YOR251C	TUM1	M	TIM23-PAM		24			Peripheral membrane protein on the matrix side, assigned to matrix
+P07806	YGR094W	VAS1	M	TIM23-PAM	47	44	52		
+Q12184	YPL252C	YAH1	M	TIM23-PAM		32			
+P80235	YAR035W	YAT1	IM	TIM23-OXA		38			"Assumed to use ""stop-transfer"" mechanism"
+Q07540	YDL120W	YFH1	M	TIM23-PAM	21	51			
+P36010	YKL067W	YNK1	IMS	IMS unknown		20			Localized predominantly in the cytoplasm, small fraction mitochondrial
+P53852	YNL247W		M	TIM23-PAM		10		11	
+P47052	YJL045W		IM	TIM23-PAM	25	17	25		Homologous to SDH1, therefore assumed to use the same pathway
+P38744	YHL018W		M	TIM23-PAM		8			
+Q12480	YPR004C	AIM45	M	TIM23-PAM		40			
+P42940	YGR207C	CIR1	M	TIM23-PAM		9			
+Q08822	YOR356W	CIR2	IM	TIM23-OXA		12	20		
+P13188	YOR168W	GLN4	M	TIM23-PAM		53			
+P48570	YDL182W	LYS20	M	TIM23-PAM		52			
+Q12122	YDL131W	LYS21	M	TIM23-PAM		66			
+P38909	YOR037W	CYC2	IM	TIM23-IM		16			Inner membrane anchored with FAD domain in IMS according to PMID:16207709
+P80967	YPR133W-A	TOM5	OM	MIM1					
+P33448	YOR045W	TOM6	OM	MIM1					
+P53507	YNL070W	TOM7	OM	MIM1					
+P35180	YGR082W	TOM20	OM	MIM1					
+P49334	YNL131W	TOM22	OM	OM unknown					
+P23644	YMR203W	TOM40	OM	OM unknown					
+P07213	YNL121C	TOM70	OM	MIM1					
+P39515	YJL143W	TIM17	IM	TIM22					
+P53220	YGR033C	TIM21	IM	TIM23-IM		41		42	
+P32897	YNR017W	TIM23	IM	TIM22					
+Q02776	YPL063W	TIM50	IM	TIM23-IM		35		36	
+Q01852	YIL022W	TIM44	M	TIM23-PAM		21			
+P42949	YJL104W	PAM16	M	TIM23-PAM		27			
+Q07914	YLR008C	PAM18	M	TIM23-PAM		24			
+P0CS90	YJR045C	SSC1	M	TIM23-PAM		23			
+P38523	YOR232W	MGE1	M	TIM23-PAM		43		44	
+P39952	YER154W	OXA1	IM	TIM22					
+P32839	YDR375C	BCS1	IM	TIM23-OXA		36			
+P36046	YKL195W	MIA40	IM	TIM23-OXA		31			
+P27882	YGR029W	ERV1	IMS	IMS unknown					
+P36078	YKL084W	HOT13	IMS	IMS unknown					
+P10507	YLR163C	MAS1	M	TIM23-PAM		15		16	
+P11914	YHR024C	MAS2	M	TIM23-PAM		9		10	
+P35999	YKL134C	OCT1	M	TIM23-PAM		27		28	
+P40051	YER078C	ICP55	M	TIM23-PAM		18		19	
+P32898	YDR430C	CYM1	M	TIM23-PAM		7			
+P25375	YCL057W	PRD1	M	TIM23-PAM		23			
+Q06010	YLR389C	STE23	M	TIM23-PAM		45		46	
+Q08176	YOL026C	MIM1	OM	OM unknown					
+Q3E798	YLR099W-A	MIM2	OM	OM unknown					
+Q12328	YDL217C	TIM22	IM	TIM22					
+P47045	YJL054W	TIM54	IM	TIM23-OXA		33			
+Q08749	YOR297C	TIM18	IM	TIM23-OXA		35			
+O74700	YEL020W-A	TIM9	IMS	MIA40-ERV1					Requires disulfide bonds for folding, assumed to use MIA40-ERV1 pathway
+P87108	YHR005C-A	TIM10	IMS	MIA40-ERV1					Requires disulfide bonds for folding, assumed to use MIA40-ERV1 pathway
+P32830	YBR091C	TIM12	IMS	MIA40-ERV1					Contains a disulfide bond, assumed to use MIA40-ERV1 pathway
+P53969	YNL026W	SAM50	OM	OM unknown					
+P50110	YMR060C	SAM37	OM	OM unknown					
+P14693	YHR083W	SAM35	OM	OM unknown					
+P53193	YGL018C	JAC1	M	TIM23-PAM	10	10			
+Q05931	YLR369W	SSQ1	M	TIM23-PAM		18			

@@ -1,0 +1,13 @@
+rxnName	rxnTemplate	grRule	References
+IMS unknown	prot_X[c] => prot_X[ims]		
+OM unknown	prot_X[c] => prot_X[om]		
+MIM1	prot_X[c] => prot_X[om]	YOL026C and YLR099W-A and YNL121C	PMID: 21825073
+TIM23-IMS	prot_X[c] + y PMF[ims] => prot_X[ims] + y PMF[m] + prot_presequence[m]	YPR133W-A and YOR045W and YNL070W and YGR082W and YNL131W and YMR203W and YNL121C and YJL143W and YGR033C and YNR017W and YPL063W and YLR163C and YHR024C	
+TIM23-PAM	prot_X[c] + y PMF[ims] + x ATP[m] + x H2O[m] => prot_X[m] + y PMF[m] + x ADP[m] + x phosphate[m] + x H+[m] + prot_presequence[m]	YPR133W-A and YOR045W and YNL070W and YGR082W and YNL131W and YMR203W and YNL121C and YJL143W and YGR033C and YNR017W and YPL063W and YIL022W and YJL104W and YLR008C and YJR045C and YOR232W and YLR163C and YHR024C	
+TIM23-OXA	prot_X[c] + y PMF[ims] + x ATP[m] + x H2O[m] => prot_X[mm] + y PMF[m] + x ADP[m] + x phosphate[m] + x H+[m] + prot_presequence[m]	YPR133W-A and YOR045W and YNL070W and YGR082W and YNL131W and YMR203W and YNL121C and YJL143W and YGR033C and YNR017W and YPL063W and YIL022W and YJL104W and YLR008C and YJR045C and YOR232W and YER154W and YLR163C and YHR024C	
+TIM23-BCS1	prot_X[c] + y PMF[ims] + x ATP[m] + x H2O[m] => prot_X[mm] + y PMF[m] + x ADP[m] + x phosphate[m] + x H+[m] + prot_presequence[m]	YPR133W-A and YOR045W and YNL070W and YGR082W and YNL131W and YMR203W and YNL121C and YJL143W and YGR033C and YNR017W and YPL063W and YIL022W and YJL104W and YLR008C and YJR045C and YOR232W and YDR375C and YLR163C and YHR024C	
+MIA40-ERV1	prot_X[c] + 2 ferricytochrome c[ims] => prot_X[ims] + 2 ferrocytochrome c[ims]	(YKL195W and YGR029W and YKL084W and YJR048W) or (YKL195W and YGR029W and YKL084W and YEL039C)	
+TIM23-IM	prot_X[c] + y PMF[ims] => prot_X[mm] + y PMF[m] + prot_presequence[m]	YPR133W-A and YOR045W and YNL070W and YGR082W and YNL131W and YMR203W and YNL121C and YJL143W and YGR033C and YNR017W and YPL063W and YLR163C and YHR024C	
+OXA	prot_X[m] => prot_X[mm]	YER154W	
+prot_presequence_degradation	prot_presequence[m] =>	(YDR430C and YCL057W) or (YDR430C and YLR389C)	 
+TIM22	prot_X[c] => prot_X[mm]	YDL217C and YJL054W and YOR297C and YBR091C and YEL020W-A and YHR005C-A	

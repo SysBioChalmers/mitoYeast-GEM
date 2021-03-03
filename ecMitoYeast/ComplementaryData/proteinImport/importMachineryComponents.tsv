@@ -1,0 +1,40 @@
+UniProtID	Primary identifier	Gene symbol	Description	Component	Complex Localization
+P80967	YPR133W-A	TOM5	Mitochondrial import receptor subunit TOM5 (Translocase of outer membrane 5 kDa subunit)	TOM	om
+P33448	YOR045W	TOM6	Mitochondrial import receptor subunit TOM6 (Mitochondrial import site protein ISP6) (Translocase of outer membrane 6 kDa subunit)	TOM	om
+P53507	YNL070W	TOM7	Mitochondrial import receptor subunit TOM7 (Translocase of outer membrane 7 kDa subunit)	TOM	om
+P35180	YGR082W	TOM20	Mitochondrial import receptor subunit TOM20 (Mitochondrial 20 kDa outer membrane protein) (Protein MAS20) (Translocase of outer membrane 20 kDa subunit)	TOM	om
+P49334	YNL131W	TOM22	Mitochondrial import receptor subunit TOM22 (Mitochondrial 17 kDa assembly protein) (Mitochondrial 22 kDa outer membrane protein) (Protein MAS17) (Translocase of outer membrane 22 kDa subunit)	TOM	om
+P23644	YMR203W	TOM40	Mitochondrial import receptor subunit TOM40 (Mitochondrial import site protein ISP42) (Translocase of outer membrane 40 kDa subunit)	TOM	om
+P07213	YNL121C	TOM70	Mitochondrial import receptor subunit TOM70 (70 kDa mitochondrial outer membrane protein) (Translocase of outer membrane 70 kDa subunit)	TOM	om
+P39515	YJL143W	TIM17	Mitochondrial import inner membrane translocase subunit TIM17 (Mitochondrial inner membrane protein MIM17) (Mitochondrial protein import protein 2)	TIM23	mm
+P53220	YGR033C	TIM21	Mitochondrial import inner membrane translocase subunit TIM21	TIM23	mm
+P32897	YNR017W	TIM23	Mitochondrial import inner membrane translocase subunit TIM23 (Membrane import machinery protein MIM23) (Mitochondrial protein import protein 3) (Mitochondrial protein import protein MAS6)	TIM23	mm
+Q02776	YPL063W	TIM50	Mitochondrial import inner membrane translocase subunit TIM50	TIM23	mm
+Q01852	YIL022W	TIM44	Mitochondrial import inner membrane translocase subunit TIM44 (Inner membrane import site protein 45) (ISP45) (Membrane import machinery protein MIM44) (Mitochondrial protein import protein 1)	PAM	m
+P42949	YJL104W	PAM16	Mitochondrial import inner membrane translocase subunit TIM16 (Presequence translocated-associated motor subunit PAM16)	PAM	m
+Q07914	YLR008C	PAM18	Mitochondrial import inner membrane translocase subunit TIM14 (Presequence translocated-associated motor subunit PAM18)	PAM	m
+P0CS90	YJR045C	SSC1	Heat shock protein SSC1, mitochondrial (Endonuclease SceI 75 kDa subunit) (Endo.SceI 75 kDa subunit) (mtHSP70)	PAM	m
+P38523	YOR232W	MGE1	GrpE protein homolog, mitochondrial	PAM	m
+P39952	YER154W	OXA1	Mitochondrial inner membrane protein OXA1 (Cytochrome oxidase biogenesis protein OXA1) (Oxidase assembly protein 1)	OXA	mm
+P32839	YDR375C	BCS1	Mitochondrial chaperone BCS1	BCS1	mm
+P36046	YKL195W	MIA40	Mitochondrial intermembrane space import and assembly protein 40 (Mitochondrial import inner membrane translocase TIM40)	Disulfide relay	mm
+P27882	YGR029W	ERV1	Mitochondrial FAD-linked sulfhydryl oxidase ERV1 (EC 1.8.3.2) (14 kDa regulatory protein) (Essential for respiration and vegetative growth protein 1)	Disulfide relay	ims
+P36078	YKL084W	HOT13	Helper of Tim protein 13	Disulfide relay	ims
+P10507	YLR163C	MAS1	Mitochondrial-processing peptidase subunit beta (EC 3.4.24.64) (Beta-MPP) (PEP)	MPP	m
+P11914	YHR024C	MAS2	Mitochondrial-processing peptidase subunit alpha (EC 3.4.24.64) (Alpha-MPP)	MPP	m
+P35999	YKL134C	OCT1	Mitochondrial intermediate peptidase (MIP) (EC 3.4.24.59)	OCT1	m
+P40051	YER078C	ICP55	Intermediate cleaving peptidase 55 (EC 3.4.11.26) (Intermediate cleaving peptidase of 55 kDa)	ICP55	m
+P32898	YDR430C	CYM1	Mitochondrial presequence protease (EC 3.4.24.-) (Cytosolic metalloprotease 1) (Metalloprotease of 112 kDa)	CYM1	m
+P25375	YCL057W	PRD1	Saccharolysin (EC 3.4.24.37) (Oligopeptidase YSCD) (Protease D) (Proteinase yscD)	PRD1	m
+Q06010	YLR389C	STE23	A-factor-processing enzyme (EC 3.4.24.-) (Insulin-degrading enzyme homolog)	STE23	m
+Q08176	YOL026C	MIM1	Mitochondrial protein required for outer membrane protein import	MIM	om
+Q3E798	YLR099W-A	MIM2	Mitochondrial protein required for outer membrane protein import	MIM	om
+Q12328	YDL217C	TIM22	Essential core component of the mitochondrial TIM22 complex	TIM22	mm
+P47045	YJL054W	TIM54	Component of the mitochondrial TIM22 complex	TIM22	mm
+Q08749	YOR297C	TIM18	Component of the mitochondrial TIM22 complex	TIM22	mm
+O74700	YEL020W-A	TIM9	"Essential protein of the mitochondrial intermembrane space; forms a complex with Tim10p (TIM10 complex) that delivers hydrophobic proteins to the TIM22 complex for insertion into the inner membrane"	TIM22	ims
+P87108	YHR005C-A	TIM10	"Essential protein of the mitochondrial intermembrane space; forms a complex with Tim9p (TIM10 complex) that delivers hydrophobic proteins to the TIM22 complex for insertion into the inner membrane"	TIM22	ims
+P32830	YBR091C	TIM12	"Essential protein of the inner mitochondrial membrane; peripherally localized; component of the TIM22 complex"	TIM22	ims
+P53969	YNL026W	SAM50	Component of the Sorting and Assembly Machinery (SAM) complex	SAM	om
+P50110	YMR060C	SAM37	Component of the Sorting and Assembly Machinery (SAM) complex	SAM	om
+P14693	YHR083W	SAM35	Component of the Sorting and Assembly Machinery (SAM) complex	SAM	om

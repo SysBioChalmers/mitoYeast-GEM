@@ -1,0 +1,17 @@
+Complex	Kcat (h-1)	Comments
+BCS1	5.2034	Estimated from proteomics data PMID: 29361465
+CYM1	0	
+Disulfide relay	9.1313	Estimated from proteomics data PMID: 29361465
+ICP55	235.7786	Estimated from proteomics data PMID: 29361465
+MIM	11.3485	Estimated from proteomics data PMID: 29361465
+MPP	319.0199	Estimated from proteomics data PMID: 29361465
+OCT1	144.2625	Estimated from proteomics data PMID: 29361465
+OXA	11.8620	Estimated from proteomics data PMID: 29361465
+PAM	95.0973	Value from Human PMID: 24012426
+PRD1	0	
+SAM	0	
+STE23	0	
+TIM chaperones	5.7960	Estimated from proteomics data PMID: 29361465
+TIM22	43.8168	Estimated from proteomics data PMID: 29361465
+TIM23	248.7712	Estimated from proteomics data PMID: 29361465
+TOM	117.3856	Estimated from proteomics data PMID: 29361465

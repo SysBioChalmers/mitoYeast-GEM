@@ -1,0 +1,6 @@
+rxnName	rxnTemplate	grRule
+prot_X_lipoylation (lumped)	5 H+[m] + octanoyl-ACP[m] + 2 S-adenosyl-L-methionine[m] + 2 oxidized ferredoxin[m] + [4Fe-4S] iron-sulfur cluster[m] + apo_prot_X[m] => ACP1[m] + 2 L-methionine[m] + 4 iron(3+)[m] + 2 hydrogen sulfide[m] + 2 5'-Deoxyadenosine[m] + 2 reduced ferredoxin[m] + holo_prot_X[m]	YLR239C and YOR196C
+prot_X_biotinylation (cytosolic)	ATP[c] + biotin[c] + apo_prot_X[c] => AMP[c] + diphosphate[c] + H+[c] + holo_prot_X[c]	YDL141W
+prot_X_biotinylation (mitochondrial)	ATP[m] + biotin[m] + apo_prot_X[m] => AMP[m] + diphosphate[m] + H+[m] + holo_prot_X[m]	
+prot_X_cofactor_modification (cytosolic)	[2Fe-2S] iron-sulfur cluster[c] + [4Fe-4S] iron-sulfur cluster[c] + [3Fe-4S] iron-sulfur cluster[c] + heme a[c] + ferroheme b[ims] + siroheme[c] + apo_prot_X[x] => holo_prot_X[x]	
+prot_X_cofactor_modification (mitochondrial)	[2Fe-2S] iron-sulfur cluster[m] + [4Fe-4S] iron-sulfur cluster[m] + [3Fe-4S] iron-sulfur cluster[m] + ferroheme b[m] + heme a[m] + apo_prot_X[x] => holo_prot_X[x]	
