@@ -59,7 +59,7 @@ cd ../otherChanges/
 % Represent the proton motive force (PMF) in model
 [model,energy,redox,growthRate] = addPMFcostToRxns(model);
 
-%%
 % Save model
-saveMitoYeastModel(model,'1.0.0');
+cd ../
+saveMitoYeastModel(model,'1.0.1');
 

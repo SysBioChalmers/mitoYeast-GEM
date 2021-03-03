@@ -14,12 +14,11 @@ model.S = full(model.S);
 model.description = 'mitoYeastGEM.xml';
 model.modelName   = 'yeastGEM with expanded mitochondrial metabolism';
 model.modelID     = ['mitoYeastGEM_v' version];
-model.grRules = creategrRulesField(model); 
+model             = creategrRulesField(model); 
 grRules = model.grRules; % used when creating txt file for model
 
 % Remove grRules field from model
 model = rmfield(model,'grRules');
-
 
 % Update SBO terms in model
 cd ../../../yeast-GEM/ComplementaryScripts/missingFields/
