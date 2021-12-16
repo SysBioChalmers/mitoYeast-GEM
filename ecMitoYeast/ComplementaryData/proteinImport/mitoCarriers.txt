@@ -1,0 +1,32 @@
+GeneName	GeneShort	UniProtID	Description	Mass (kDa)	kcat (s-1)	Source
+YOR222W	ODC2	Q99297	Mitochondrial 2-oxodicarboxylate carrier 2	34,007	70,9	Median kcat in yeast PMID: 28779005
+YPL134C	ODC1	Q03028	Mitochondrial 2-oxodicarboxylate carrier 1	34,206	70,9	
+YBL030C	PET9	P18239	ADP,ATP carrier protein 2 (ADP/ATP translocase 2) (Adenine nucleotide translocator 2) (ANT 2) (Petite colonies protein 9)	34,426	70,9	
+YBR085W	AAC3	P18238	ADP,ATP carrier protein 3 (ADP/ATP translocase 3) (Adenine nucleotide translocator 3) (ANT 3)	33,313	70,9	
+YMR056C	AAC1	P04710	ADP,ATP carrier protein 1 (ADP/ATP translocase 1) (Adenine nucleotide translocator 1) (ANT 1)	34,121	70,9	
+YMR241W	YHM2	Q04013	Citrate/oxoglutarate carrier protein (Coc1p) (Mitochondrial DNA replication protein YHM2)	34,185	5,868425	vmax taken from PMID: 20371607 
+YPR021C	AGC1	Q12482	Mitochondrial aspartate-glutamate transporter AGC1 (Aspartate-glutamate carrier 1)	104,304	70,9	
+YOR100C	CRC1	Q12289	Mitochondrial carnitine carrier	34,754	70,9	
+YBR291C	CTP1	P38152	Tricarboxylate transport protein (Citrate transport protein) (CTP)	32,173	70,9	
+YHR002W	LEU5	P38702	Mitochondrial carrier protein LEU5	40,825	70,9	
+YBR192W	RIM2	P38127	Mitochondrial carrier protein RIM2	42,102	70,9	
+YIL134W	FLX1	P40464	Mitochondrial FAD carrier protein FLX1	34,409	70,9	
+YDL198C	GGC1	P38988	Mitochondrial GTP/GDP carrier protein 1	33,215	1,107166667	vmax taken from PMID: 14998997
+YJL133W	MRS3	P10566	Mitochondrial RNA-splicing protein MRS3	34,502	70,9	
+YKR052C	MRS4	P23500	Mitochondrial RNA-splicing protein MRS4	33,307	70,9	
+YBR104W	YMC2	P38087	Carrier protein YMC2, mitochondrial	36,555	70,9	
+YLR348C	DIC1	Q06143	Mitochondrial dicarboxylate transporter (DTP) (Dicarboxylate carrier 1)	32,992	1,6496	"vmax taken from PMID: 10027973; 9020177; 9559855"
+YEL006W	YEA6	P39953	Mitochondrial nicotinamide adenine dinucleotide transporter 2 (Mitochondrial NAD(+) transporter 2)	36,961	70,9	
+YIL006W	YIA6	P40556	Mitochondrial nicotinamide adenine dinucleotide transporter 1 (Mitochondrial NAD(+) transporter 1)	41,954	0,431426967	vmax taken from PMID: 16291748
+YOR130C	ORT1	Q12375	Mitochondrial ornithine transporter 1	31,52	70,9	
+YKL120W	OAC1	P32332	Mitochondrial oxaloacetate transport protein (Mitochondrial carrier protein PMT)	35,153	70,9	
+YER053C	PIC2	P40035	Mitochondrial phosphate carrier protein 2 (Phosphate transport protein 2) (PTP 2) (Pi carrier isoform 2) (mPic 2)	33,528	70,9	
+YJR077C	MIR1	P23641	Mitochondrial phosphate carrier protein (Mitochondrial import receptor) (Phosphate transport protein) (PTP) (mPic 1) (p32) [Cleaved into: Mitochondrial phosphate carrier protein, N-terminally processed]	32,812	70,9	
+YNL003C	PET8	P38921	Putative mitochondrial carrier protein PET8	31,027	70,9	
+YJR095W	SFC1	P33303	Succinate/fumarate mitochondrial transporter (Regulator of acetyl-CoA synthase activity)	35,34	70,9	
+YGR096W	TPC1	P53257	Mitochondrial thiamine pyrophosphate carrier 1	35,137	0,022253433	vmax taken from PMID: 12411483
+YPR058W	YMC1	P32331	Mitochondrial glycine transporter YMC1	33,376	70,9	
+YMR301C	ATM1	P40416	Iron-sulfur clusters transporter ATM1, mitochondrial (EC 7.-.-.-)	77,522	3,48849E-05	vmax taken from PMID: 25006243
+YGL080W	MPC1	P53157	Mitochondrial pyruvate carrier 1 (MPC1) (Protein FMP37)	14,995	70,9	
+YGR243W	MPC3	P53311	Mitochondrial pyruvate carrier 3 (MPC3) (Protein FMP43)	16,23	70,9	
+YHR162W	MPC2	P38857	Mitochondrial pyruvate carrier 2 (MPC2)	14,555	70,9	

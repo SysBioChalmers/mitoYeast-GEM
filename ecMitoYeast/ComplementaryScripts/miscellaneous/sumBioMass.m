@@ -28,7 +28,7 @@
 function [X,P,C,R,D,L,I,F,G] = sumBioMass(model,data)
 if nargin < 2
     %Load data for biomass composition:
-    fid = fopen('biomassComponents_ecModel.txt');
+    fid = fopen('../../ComplementaryData/physiology/biomassComponents_ecModel.txt');
     d = textscan(fid,'%s %s %f32 %f32 %s','Delimiter','\t','HeaderLines',1);
     data.mets       = d{1};
     data.abundances = double(d{3});

@@ -40,6 +40,7 @@ disp('******************* Limiting Kcats curation *******************')
 i=1; 
 % Tolerance of 10% underprediction for allowing a sigma factor readjustment
 while error<=-6%10
+    cd(current)
     %Get the top limiting enzyme (uniprot code basis)
     [limKcat,breakFlag] = findTopLimitations(ecModelBatch,modifiedKcats,0,expVal);   
     if breakFlag == false
@@ -65,6 +66,7 @@ while error<=-6%10
 end
 %Create a .txt file with all the modifications that were done on the
 %individual Kcat coefficients
+cd(current)
 if ~isempty(changes)
     varNamesTable = {'Unicode','enz_pos','rxn_pos','Organism','Modified',...
                     'Parameter','oldValue','newValue','error','ControlCoeff'};  
@@ -142,7 +144,7 @@ if ~isempty(ECnumber)
     output = {UniCode,limKcats{2}(1),limKcats{3}(1),org,flag,match,...
               previous_value,new_value,error,limKcats{5}(1)};
 end
-cd ../customGECKO/kcat_sensitivity_analysis/
+%cd(current)
 end
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 function  [ECnumber, Mw] = findECnumber(Unicode)

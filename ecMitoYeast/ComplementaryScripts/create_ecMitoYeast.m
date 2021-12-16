@@ -11,7 +11,7 @@ modelID = strsplit(model.modelID,'_');
 modelName = modelID{1};
 modelVersion = modelID{2};
 model_raven = ravenCobraWrapper(model);
-cd ../../../GECKO/geckomat/change_model/
+cd ../../../../GECKO/geckomat/change_model/
 [model,~,~] = preprocessModel(model_raven,modelName,modelVersion); 
 
 % Collect kcats and assign to reactions, using GECKO toolbox
@@ -47,5 +47,5 @@ cd ../otherChanges/
 ecModel_corr_resp_efficiency = changeRespChainEfficiency(ecModel);
 % Get constrained model
 cd ../customGECKO/limit_proteins/
-[ecMitoYeastGEM_batch,optSigma] = getConstrainedModel_modified(ecModel_corr_resp_efficiency,modifications_new,'ecMitoYeastGEM_batch');
+[ecMitoYeastGEM_batch_1,optSigma] = getConstrainedModel_modified(ecModel_corr_resp_efficiency,modifications,'ecMitoYeast_1');
 disp(['Sigma factor (fitted for growth on glucose): ' num2str(OptSigma)])

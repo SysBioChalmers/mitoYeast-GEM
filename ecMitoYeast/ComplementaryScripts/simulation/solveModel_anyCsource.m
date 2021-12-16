@@ -23,7 +23,7 @@ while mu_high - mu_low > 0.0001
    model.ub(growth_pos) = mu_mid;
    
    % incorporate growth rate in constraints
-   modelWithMuConstraint = incorporateMuInConstraints2(model,mu_mid);
+   modelWithMuConstraint = incorporateMuInConstraints(model,mu_mid);
    
    % try solving the model with minimizing glucose uptake as objective
    sol = optimizeCbModel(modelWithMuConstraint,'min','one');

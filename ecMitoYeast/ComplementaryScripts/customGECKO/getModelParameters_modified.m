@@ -16,7 +16,7 @@ parameters.sigma = 0.5;
 parameters.Ptot = 0.46;      %Assumed constant
 
 %Minimum growth rate the model should grow at [1/h]
-parameters.gR_exp = 0.41;     %[g/gDw h] 
+parameters.gR_exp = 0.43;     %[g/gDw h] 
 
 %Provide your organism scientific name
 parameters.org_name = 'saccharomyces cerevisiae';

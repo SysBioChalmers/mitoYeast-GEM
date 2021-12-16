@@ -47,7 +47,35 @@ enzymeLoc.MPPcleavageSite   = cellfun(@str2num,fileData{7},'UniformOutput',false
 enzymeLoc.OCT1cleavageSite  = cellfun(@str2num,fileData{8},'UniformOutput',false);
 enzymeLoc.ICP55cleavageSite = cellfun(@str2num,fileData{9},'UniformOutput',false);
 
+% Update kcat information with values for mitochondrial carriers
+fid      = fopen('mitoCarriers.txt');
+fileData = textscan(fid,'%s%s%s%s%s%s%s','Delimiter','\t',...
+                    'HeaderLines',1);
+fclose(fid);
+% Extract information
+mitoCarriers.uniprots = fileData{3};
+fileData{6}           = strrep(fileData{6},',','.');
+mitoCarriers.kcats    = str2double(fileData{6})*3600; % s-1 -> h-1
+[m,n] = size(uniprots);
+% Update array with kcat information
+for i = 1:length(mitoCarriers.uniprots)
+    uniprotID = mitoCarriers.uniprots{i};
+    for j = 1:n
+        % skip looping over columns lacking data
+        column = uniprots(:,j);
+        % replace empty ([]) cells
+        column(cellfun(@isempty,column)) = {'empty'};
+        carrierInd = contains(string(column),uniprotID);
+        if sum(carrierInd) == 0
+            continue
+        else
+            kcats(carrierInd,j) = mitoCarriers.kcats(i);
+        end
+    end
+end
+
 cd(current)
+
 % Add enzymes to model. All enzymes are added to cytoplasm, with the
 % exception of mitochondrially synthesized enzymes. Enzymes are added as
 % holo-proteins

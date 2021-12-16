@@ -1,0 +1,27 @@
+EXCHANGE FLUXES:
+r_1672	(carbon dioxide exchange):	29.8087
+r_1761	(ethanol exchange):	26.1426
+r_1793	(formate exchange):	1e-05
+r_1814	(glycolaldehyde exchange):	2.7775e-05
+r_2100	(water exchange):	14.0954
+r_2111	(growth):	0.42995
+r_4527	(diphosphate exchange):	3.0452
+r_4659	(5'-deoxyadenosine demand):	2.8288e-06
+r_1654_REV	(ammonium exchange (reversible)):	2.7604
+r_1671_REV	(biotin exchange (reversible)):	5.0415e-06
+r_1714_REV	(D-glucose exchange (reversible)):	16.6327
+r_1832_REV	(H+ exchange (reversible)):	18.6549
+r_1861_REV	(iron(2+) exchange (reversible)):	0.00016284
+r_1992_REV	(oxygen exchange (reversible)):	2.7678
+r_2005_REV	(phosphate exchange (reversible)):	6.2218
+r_2020_REV	(potassium exchange (reversible)):	0.0015607
+r_2049_REV	(sodium exchange (reversible)):	0.0017069
+r_2060_REV	(sulphate exchange (reversible)):	0.037315
+r_4593_REV	(chloride exchange (reversible)):	0.00055463
+r_4594_REV	(Cu2(+) exchange (reversible)):	0.00028334
+r_4595_REV	(Mn(2+) exchange (reversible)):	0.0011738
+r_4596_REV	(Zn(2+) exchange (reversible)):	0.0003216
+r_4597_REV	(Mg(2+) exchange (reversible)):	0.00053423
+r_4600_REV	(Ca(2+) exchange (reversible)):	9.3299e-05
+prot_presequence_degradation	(prot_presequence_degradation):	0.00019197
+prot_pool_exchange	(prot_pool_exchange):	0.10912

@@ -26,7 +26,7 @@ protPos = find(contains(model.rxnNames,'prot_pool'));
 % Set growth rate and incorporate the growth rate in constraints
 model.lb(gPos) = gRate;
 model.ub(gPos) = 1.01*gRate;
-modelWithMuConstraints = incorporateMuInConstraints2(model,gRate);
+modelWithMuConstraints = incorporateMuInConstraints(model,gRate);
 
 % Set minimization of carbon source uptake as objective
 modelWithMuConstraints.c(:) = 0;

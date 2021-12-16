@@ -73,7 +73,7 @@ function [ecModel_batch,OptSigma] = getConstrainedModel_modified(ecModel,modific
             %iterate replacing the top limiting value according to the maximum 
             %value available in BRENDA for the same EC number until the objective
             %is no longer underpredicted 
-            ecModel_batch = modifyKcats(ecModel_batch,gRate,modifications,name);
+            %ecModel_batch = modifyKcats(ecModel_batch,gRate,modifications,name);
         else
             fprintf('\n')
             disp('***************************************************************')
@@ -96,7 +96,7 @@ function [ecModel_batch,OptSigma] = getConstrainedModel_modified(ecModel,modific
         [~,solution] = solveModel(ecModel_batch,0,gRate);
         if ~isempty(solution.x)
             disp('Saving simulation results files...')
-            fluxFileName = ['../../../ModelFiles/' name '_exchangeFluxes.txt'];
+            fluxFileName = ['../../ModelFiles/' name '_exchangeFluxes.txt'];
             printFluxes(ecModel_batch,solution.x,true,10^-6,fluxFileName);
             cd ../customGECKO/kcat_sensitivity_analysis/
             topUsedEnzymes(solution.x,ecModel_batch,{'Min_glucose'},name);

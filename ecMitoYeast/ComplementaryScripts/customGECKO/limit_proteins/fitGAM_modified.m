@@ -35,7 +35,7 @@ else
     
     %GAMs to span:
     disp('Estimating GAM:')
-    GAM = 15:1:23;
+    GAM = 30:1:40;
     
     %1st iteration:
     GAM = iteration(model,GAM,exp_data,verbose);

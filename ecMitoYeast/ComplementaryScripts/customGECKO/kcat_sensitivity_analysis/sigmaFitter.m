@@ -56,7 +56,7 @@ plot(sigParam,errors,'LineWidth',5)
 title('Sigma fitting for growth on glucose minimal media')
 xlabel('Average enzyme saturation [-]')
 ylabel('Absolute relative error [%]')
-cd ../customGECKO/kcat_sensitivity_analysis/
+%cd ../customGECKO/kcat_sensitivity_analysis/
 end
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
